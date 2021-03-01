@@ -1,0 +1,25 @@
+\chapter{Related work}
+
+In this chapter we present prior research that related to IoT security.  We present the previous approaches and discuss about the difference between our approach with previous ones.
+
+We also review previous research that related to IoT anonymity. There have been a few papers that attempts to combine the Tor network with IoT systems to achieve anonymity, but the problem has not been studied a lot.
+
+\section{Papers on IoT security}
+
+Privacy-preserving architecture for IoT devices has been studied widely. Song \textit{et al.} \cite{song2017privacy} design a privacy-preserving communication protocol for IoT applications. Their protocol enables IoT appliances and sensors to securely communicate with a central controller and ensures data integrity and authentication by incorporating MAC (Message Authentication Code) to the data transmission. In contraction, our approach uses onion network to achieve secure communication.
+
+Fabian \textit{et al.} \cite{fabian2014privacy} discuss about a privacy-preserving P2P data infrastructure for IoT devices based on the Octopus distributed hash table \cite{wang2012octopus} and measured the efficiency of their infrastructure (latency) using simulated network. While our design does not cover storage issues (the data are only stored locally and stashed immediately after served to the user), it is possible to extend our design by adapting their solution.
+
+Apthorpe \textit{et al.} \cite{apthorpe2017smart} review and list the privacy vulnerabilities in encrypted IoT traffic of four commercial IoT services. In addition, they develop a strategy to infer consumer behavior from rates of IoT traffic, which enables a passive network observer to retrieve information even when the traffic is encrypted. In this thesis, we adapt the mechanism of traffic cover to prevent analysis on traffic.
+
+Alrawi \textit{et al.} \cite{alrawi2019sok} give an overview of security study challenges in modern IoT systems. In their work, they propose a modeling methodology to study home-based IoT devices and evaluate their security posture based on component analysis. In this thesis, we propose a privacy-preserving framework for home IoT devices by introducing the Tor network to the communication. 
+
+
+
+\section{Papers on anonymity}
+
+Moving towards anonymous communication for IoT systems, there have been approaches utilizing onion networks. Hiller \textit{et al.} \cite{hiller2019tailoring} propose a mechanism to tailor onion routing to the IoT by bridging the protocol incompatibilities securely offloading expensive computations to an external server owned by the IoT device owner. Their work focus on solving problems of incompatible protocols and constrained resources. While our approach propose a framework which is designed to communicate through Tor, the optimization is also adaptable in our approach to provide a more generalized design for privacy-preserving IoT systems.
+
+Hoang \textit{et al.} \cite{hoang2015tor} discusses about the challenges and benefits of using Tor network to secure smart home appliances. They list a number of vulnerabilities that IoT users are facing, and show how Tor-based communication can help users protect their privacy. Contrary, we present a concrete design and implementation for a specific type of IoT device (an Internet-enabled video doorbell).
+
+Focusing about enhanced security communication for IoT addressing and connectivity, Baumann \textit{et al.} \cite{baumann2018utilising} discussed about how utilizing Tor network benefits in environments behind firewalls, proxies and NAT. They have also proposed a prototypical implementation for a Internet-enabled 3D printer using a RaspberryPi as the hardware. Our approach provides an implementation for a different type of IoT device and includes more security and usability features.

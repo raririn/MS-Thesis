@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.7.14)  17 FEB 2021 13:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.7.14)  28 FEB 2021 22:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -51,10 +51,10 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 (d:/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: dvips.def on input line 105.
+Package graphics Info: Driver file: pdftex.def on input line 105.
 
-(d:/texlive/2020/texmf-dist/tex/latex/graphics-def/dvips.def
-File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
+(d:/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen135
 \Gin@req@width=\dimen136
@@ -194,131 +194,240 @@ File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
 (./template.aux)
 \openout1 = `template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+
+(d:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count199
+\scratchdimen=\dimen153
+\scratchbox=\box50
+\nofMPsegments=\count266
+\nofMParguments=\count267
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count268
+\MPscratchDim=\dimen154
+\MPnumerator=\count269
+\makeMPintoPDFobject=\count270
+\everyMPtoPDFconversion=\toks25
+) (d:/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(d:/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  [1
-Non-PDF special ignored!
-<special> papersize=614.295pt,794.96999pt
 
-{d:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-[4
+{d:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4
 
 ] [5
 
-] [6
+]
+[6
 
 ] (./template.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
-
-(d:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (d:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
 
 (d:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+) [7
+
+])
 \tf@toc=\write3
 \openout3 = `template.toc'.
 
- [7
-
-] (./template.lof)
+ [8]
+(./template.lof)
 \tf@lof=\write4
 \openout4 = `template.lof'.
 
-
-[8
+ [9
 
 ] (./template.lot)
 \tf@lot=\write5
 \openout5 = `template.lot'.
 
- [9
+ [10
 
-]
+] (./chapters/introduction.tex
 Chapter 1.
-[1
+) (./chapters/relatedwork.tex [1
 
-]
+] [2]
 Chapter 2.
-[2
-
-]
-Chapter 3.
 [3
 
-]
-Chapter 4.
-[4
-
-]
-Chapter 5.
-[5
-
-]
-Chapter 6.
+]) (./chapters/framework.tex [4] [5]
+Chapter 3.
 [6
 
+] [7] [8] [9]) (./chapters/casestudy.tex [10]
+Chapter 4.
+[11
+
 ]
-Chapter 7.
-[7
+<Use_case_diagram.png, id=75, 1425.325pt x 1225.57875pt>
+File: Use_case_diagram.png Graphic file (type png)
+<use Use_case_diagram.png>
+Package pdftex.def Info: Use_case_diagram.png  used on input line 20.
+(pdftex.def)             Requested size: 433.62pt x 372.83789pt.
+<architecture.png, id=77, 1267.73625pt x 490.83376pt>
+File: architecture.png Graphic file (type png)
+<use architecture.png>
+Package pdftex.def Info: architecture.png  used on input line 29.
+(pdftex.def)             Requested size: 433.62pt x 167.88486pt.
+ [12 <./Use_case_diagram.png>] [13 <./architecture.png>]
+<Sequence_diagram_push.pdf, id=86, 421.575pt x 184.69pt>
+File: Sequence_diagram_push.pdf Graphic file (type pdf)
+<use Sequence_diagram_push.pdf>
+Package pdftex.def Info: Sequence_diagram_push.pdf  used on input line 47.
+(pdftex.def)             Requested size: 433.62pt x 189.97072pt.
+<Sequence_diagram_playvideo.pdf, id=87, 421.575pt x 196.735pt>
+File: Sequence_diagram_playvideo.pdf Graphic file (type pdf)
+<use Sequence_diagram_playvideo.pdf>
+Package pdftex.def Info: Sequence_diagram_playvideo.pdf  used on input line 52.
+
+(pdftex.def)             Requested size: 433.62pt x 202.3601pt.
+File: Sequence_diagram_push.pdf Graphic file (type pdf)
+<use Sequence_diagram_push.pdf>
+Package pdftex.def Info: Sequence_diagram_push.pdf  used on input line 57.
+(pdftex.def)             Requested size: 433.62pt x 189.97072pt.
+ [14 <./Sequence_diagram_push.pdf>] [15 <./Sequence_diagram_playvideo.pdf>] [16
+] [17]
+<fig_url.jpg, id=112, 1023.825pt x 91.84312pt>
+File: fig_url.jpg Graphic file (type jpg)
+<use fig_url.jpg>
+Package pdftex.def Info: fig_url.jpg  used on input line 97.
+(pdftex.def)             Requested size: 433.62pt x 38.89755pt.
+ [18 <./fig_url.jpg>]
+<app_sc_main.png, id=119, 1084.05pt x 2168.1pt>
+File: app_sc_main.png Graphic file (type png)
+<use app_sc_main.png>
+Package pdftex.def Info: app_sc_main.png  used on input line 120.
+(pdftex.def)             Requested size: 65.04366pt x 130.08038pt.
+<app_sc_management.png, id=120, 1084.05pt x 2168.1pt>
+File: app_sc_management.png Graphic file (type png)
+<use app_sc_management.png>
+Package pdftex.def Info: app_sc_management.png  used on input line 125.
+(pdftex.def)             Requested size: 65.04366pt x 130.08038pt.
+<app_sc_token_revoke.png, id=121, 1084.05pt x 2168.1pt>
+File: app_sc_token_revoke.png Graphic file (type png)
+<use app_sc_token_revoke.png>
+Package pdftex.def Info: app_sc_token_revoke.png  used on input line 130.
+(pdftex.def)             Requested size: 65.04366pt x 130.08038pt.
+ [19 <./app_sc_main.png> <./app_sc_management.png> <./app_sc_token_revoke.png>]
+ [20]
+<plot1.pdf, id=128, 377.64214pt x 264.6255pt>
+File: plot1.pdf Graphic file (type pdf)
+<use plot1.pdf>
+Package pdftex.def Info: plot1.pdf  used on input line 160.
+(pdftex.def)             Requested size: 433.62pt x 303.86067pt.
+<plot2.pdf, id=129, 377.64214pt x 249.44379pt>
+File: plot2.pdf Graphic file (type pdf)
+<use plot2.pdf>
+Package pdftex.def Info: plot2.pdf  used on input line 166.
+(pdftex.def)             Requested size: 433.62pt x 286.42802pt.
+ [21] [22 <./plot1.pdf>] [23 <./plot2.pdf>]
+
+Package natbib Warning: Citation `fig:notificationlatency_wTor' on page 24 unde
+fined on input line 185.
+
+<notification_latency_withTor.pdf, id=209, 433.62pt x 289.08pt>
+File: notification_latency_withTor.pdf Graphic file (type pdf)
+<use notification_latency_withTor.pdf>
+Package pdftex.def Info: notification_latency_withTor.pdf  used on input line 1
+96.
+(pdftex.def)             Requested size: 433.62pt x 289.09251pt.
+[24] [25 <./notification_latency_withTor.pdf>]
+<plot_push_tor_vs_vanilla.pdf, id=244, 433.62pt x 289.08pt>
+File: plot_push_tor_vs_vanilla.pdf Graphic file (type pdf)
+<use plot_push_tor_vs_vanilla.pdf>
+Package pdftex.def Info: plot_push_tor_vs_vanilla.pdf  used on input line 210.
+(pdftex.def)             Requested size: 433.62pt x 289.09251pt.
+) (./chapters/discussion.tex
+[26 <./plot_push_tor_vs_vanilla.pdf>]
+Chapter 5.
+[27
+
+] [28]) (./chapters/conclusion.tex [29] [30]
+Chapter 6.
+) [31
 
 ]
 Appendix A.
-[8
+[32
 
 ]
 Appendix B.
-[9
+(./template.bbl [33
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-69.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 4
+9.
  (d:/texlive/2020/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
+[34
+
+]
+Underfull \hbox (badness 1418) in paragraph at lines 161--167
+[]\T1/cmr/m/n/12 Jens Hiller, Jan Pen-nekamp, Markus Dahlmanns, Martin Henze, A
+ndriy
+ []
+
+[35])
 ***
 *** Note!
 *** Because this document has a table of contents,
 *** you must run LaTeX TWICE to get it to print correctly.
 ***
-[10
 
-] (./template.aux) ) 
+Package natbib Warning: There were undefined citations.
+
+[36] (./template.aux) ) 
 Here is how much of TeX's memory you used:
- 4014 strings out of 480471
- 56070 string characters out of 5903300
- 297228 words of memory out of 5000000
- 20012 multiletter control sequences out of 15000+600000
+ 4609 strings out of 480471
+ 65865 string characters out of 5903300
+ 302705 words of memory out of 5000000
+ 20558 multiletter control sequences out of 15000+600000
  541222 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,4n,47p,248b,288s stack positions out of 5000i,500n,10000p,200000b,80000s
-{d:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-sup
-er-t1.enc}{d:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-}<d:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb><d:/texli
-ve/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><d:/texlive/2020/te
-xmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><d:/texlive/2020/texmf-dist/f
-onts/type1/public/cm-super/sftt1200.pfb><d:/texlive/2020/texmf-dist/fonts/type1
-/public/cm-super/sfxc1200.pfb>
-Output written on template.pdf (19 pages, 102216 bytes).
+ 46i,7n,47p,936b,339s stack positions out of 5000i,500n,10000p,200000b,80000s
+{d:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-
+super-t1.enc}{d:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.
+enc}<d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/t
+exlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/202
+0/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2020/texmf-d
+ist/fonts/type1/public/cm-super/sfbx1200.pfb><d:/texlive/2020/texmf-dist/fonts/
+type1/public/cm-super/sfcc1200.pfb><d:/texlive/2020/texmf-dist/fonts/type1/publ
+ic/cm-super/sfrm1200.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-supe
+r/sfti1200.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt1200
+.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfxc1200.pfb>
+Output written on template.pdf (46 pages, 617916 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
- 63 compressed objects within 1 object stream
+ 345 PDF objects out of 1000 (max. 8388607)
+ 169 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

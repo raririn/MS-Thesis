@@ -4,22 +4,55 @@
 \noindent {\sc Chapter}
 \vspace {-3\p@ }
 \contentsline {chapter}{\numberline {1}Introduction}{1}%
-\contentsline {section}{\numberline {1.1}Section}{1}%
-\contentsline {subsection}{\numberline {1.1.1}Subsection}{1}%
-\contentsline {subsection}{\numberline {1.1.2}Subsection}{1}%
-\contentsline {chapter}{\numberline {2}Background}{2}%
-\contentsline {chapter}{\numberline {3}Related Work}{3}%
-\contentsline {chapter}{\numberline {4}Methodology}{4}%
-\contentsline {chapter}{\numberline {5}Experimental Study}{5}%
-\contentsline {section}{\numberline {5.1}Experiment 1: Description}{5}%
-\contentsline {subsection}{\numberline {5.1.1}Design}{5}%
-\contentsline {subsection}{\numberline {5.1.2}Results}{5}%
-\contentsline {subsection}{\numberline {5.1.3}Analysis}{5}%
-\contentsline {chapter}{\numberline {6}Discussion}{6}%
-\contentsline {chapter}{\numberline {7}Conclusion}{7}%
+\contentsline {section}{\numberline {1.1}Background on IoT devices}{1}%
+\contentsline {section}{\numberline {1.2}Motivation: need for privacy-preserving framework}{1}%
+\contentsline {subsection}{\numberline {1.2.1}Privacy threats of IoT devices}{1}%
+\contentsline {subsection}{\numberline {1.2.2}Challenges}{1}%
+\contentsline {section}{\numberline {1.3}Overview of approach}{1}%
+\contentsline {section}{\numberline {1.4}Scientific questions and contributions}{1}%
+\contentsline {section}{\numberline {1.5}Background on Tor}{1}%
+\contentsline {chapter}{\numberline {2}Related work}{3}%
+\contentsline {section}{\numberline {2.1}Papers on IoT security}{3}%
+\contentsline {section}{\numberline {2.2}Papers on anonymity}{4}%
+\contentsline {chapter}{\numberline {3}A privacy-preserving framework for IoT devices}{6}%
+\contentsline {section}{\numberline {3.1}Communication models}{6}%
+\contentsline {section}{\numberline {3.2}Threat model}{6}%
+\contentsline {subsection}{\numberline {3.2.1}Actors and capabilities}{7}%
+\contentsline {subsection}{\numberline {3.2.2}Security Guarantees}{8}%
+\contentsline {section}{\numberline {3.3}Feature}{8}%
+\contentsline {section}{\numberline {3.4}Methodology}{9}%
+\contentsline {chapter}{\numberline {4}Case-study: A privacy-Preserving Video Doorbell}{11}%
+\contentsline {section}{\numberline {4.1}System design}{11}%
+\contentsline {subsection}{\numberline {4.1.1}Use case analysis}{11}%
+\contentsline {subsection}{\numberline {4.1.2}Network architecture}{13}%
+\contentsline {subsection}{\numberline {4.1.3}Flow structure}{13}%
+\contentsline {section}{\numberline {4.2}Specs of the devices}{16}%
+\contentsline {section}{\numberline {4.3}Face detection}{16}%
+\contentsline {section}{\numberline {4.4}Push notification}{16}%
+\contentsline {section}{\numberline {4.5}Video streaming}{17}%
+\contentsline {section}{\numberline {4.6}Android App}{18}%
+\contentsline {subsection}{\numberline {4.6.1}Registration}{18}%
+\contentsline {subsection}{\numberline {4.6.2}Media player}{19}%
+\contentsline {subsection}{\numberline {4.6.3}Management}{19}%
+\contentsline {section}{\numberline {4.7}Experimental study}{20}%
+\contentsline {subsection}{\numberline {4.7.1}Streaming latency}{20}%
+\contentsline {subsection}{\numberline {4.7.2}Energy consumption}{21}%
+\contentsline {subsection}{\numberline {4.7.3}Bandwidth}{24}%
+\contentsline {subsection}{\numberline {4.7.4}Video and audio quality}{24}%
+\contentsline {subsection}{\numberline {4.7.5}Notification latency}{24}%
+\contentsline {subsection}{\numberline {4.7.6}The cost of using Tor}{24}%
+\contentsline {paragraph}{Streaming latency}{24}%
+\contentsline {paragraph}{Notification latency}{26}%
+\contentsline {chapter}{\numberline {5}Discussion and Open Questions}{27}%
+\contentsline {section}{\numberline {5.1}Traffic cover}{27}%
+\contentsline {section}{\numberline {5.2}Decentralized push notification}{27}%
+\contentsline {section}{\numberline {5.3}Storage}{28}%
+\contentsline {section}{\numberline {5.4}IoT devices in untrusted network}{29}%
+\contentsline {section}{\numberline {5.5}IoT-to-IoT communication}{30}%
+\contentsline {chapter}{\numberline {6}Conclusion}{31}%
 \par \vspace {6\p@ }
 \noindent {\sc Appendix}
 \vspace {-3\p@ }
-\contentsline {chapter}{\numberline {A}First Appendix}{8}%
-\contentsline {chapter}{\numberline {B}Second Appendix}{9}%
-\contentsline {pseudochapter}{\sc Bibliography}{10}%
+\contentsline {chapter}{\numberline {A}First Appendix}{32}%
+\contentsline {chapter}{\numberline {B}Second Appendix}{33}%
+\contentsline {pseudochapter}{\sc Bibliography}{34}%

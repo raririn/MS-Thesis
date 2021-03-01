@@ -1,0 +1,96 @@
+This is BibTeX, Version 0.99d (TeX Live 2020/W32TeX)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: template.aux
+The style file: bibs/ACM-Reference-Format.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: bibs/bibs.bib
+Warning--I didn't find a database entry for "fig:notificationlatency_wTor"
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--no key, author in torproject
+Warning--no author, editor, organization, or key in torproject
+Warning--to sort, need author or key in torproject
+Warning--no key, author in snowflake
+Warning--no author, editor, organization, or key in snowflake
+Warning--to sort, need author or key in snowflake
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Warning--no key, author in snowflake
+Warning--no key, author in snowflake
+Warning--no key, author in torproject
+Warning--no key, author in torproject
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--no key, author in snowflake
+Warning--no author, editor, organization, or key in snowflake
+Warning--empty author in snowflake
+Warning--empty year in snowflake
+Warning--no key, author in torproject
+Warning--no author, editor, organization, or key in torproject
+Warning--empty author in torproject
+Warning--empty year in torproject
+Warning--empty publisher in alrawi2019sok
+Warning--empty address in alrawi2019sok
+Warning--empty publisher in antonakakis2017understanding
+Warning--empty address in antonakakis2017understanding
+Warning--no number and no volume in apthorpe2017smart
+Warning--page numbers missing in both pages and numpages fields in apthorpe2017smart
+Warning--empty publisher in baumann2018utilising
+Warning--empty address in baumann2018utilising
+Warning--empty publisher in chaabane2010digging
+Warning--empty address in chaabane2010digging
+Warning--empty publisher in hiller2019tailoring
+Warning--empty address in hiller2019tailoring
+Warning--empty publisher in hoang2015tor
+Warning--empty address in hoang2015tor
+Warning--empty publisher in juarez2016toward
+Warning--empty address in juarez2016toward
+Warning--empty publisher in kollmann2017cost
+Warning--empty address in kollmann2017cost
+Warning--page numbers missing in both pages and numpages fields in paganelli2012dht
+Warning--empty publisher in sharifara2014general
+Warning--empty address in sharifara2014general
+Warning--empty publisher in wang2012octopus
+Warning--empty address in wang2012octopus
+You've used 17 entries,
+            5719 wiz_defined-function locations,
+            1385 strings with 17996 characters,
+and the built_in function-call counts, 20817 in all, are:
+= -- 2368
+> -- 809
+< -- 0
++ -- 287
+- -- 276
+* -- 1520
+:= -- 2106
+add.period$ -- 84
+call.type$ -- 17
+change.case$ -- 127
+chr.to.int$ -- 17
+cite$ -- 66
+duplicate$ -- 1860
+empty$ -- 1303
+format.name$ -- 336
+if$ -- 4939
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 66
+newline$ -- 174
+num.names$ -- 120
+pop$ -- 810
+preamble$ -- 1
+purify$ -- 267
+quote$ -- 0
+skip$ -- 663
+stack$ -- 0
+substring$ -- 1470
+swap$ -- 189
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 454
+warning$ -- 41
+while$ -- 116
+width$ -- 0
+write$ -- 328
+(There were 42 warnings)

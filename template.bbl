@@ -1,0 +1,255 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{17}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{??}{sno}{[n. d.]}]%
+        {snowflake}
+ \bibinfo{year}{[n. d.]}\natexlab{}.
+\newblock \bibinfo{title}{keroserene/snowflake: WebRTC Pluggable Transport}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://github.com/keroserene/snowflake}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{??}{tor}{[n. d.]}]%
+        {torproject}
+ \bibinfo{year}{[n. d.]}\natexlab{}.
+\newblock \bibinfo{title}{The Tor Project: Privacy Freedom Online}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.torproject.org/about/history/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Alrawi, Lever, Antonakakis, and
+  Monrose}{Alrawi et~al\mbox{.}}{2019}]%
+        {alrawi2019sok}
+\bibfield{author}{\bibinfo{person}{Omar Alrawi}, \bibinfo{person}{Chaz Lever},
+  \bibinfo{person}{Manos Antonakakis}, {and} \bibinfo{person}{Fabian Monrose}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Sok: Security evaluation of home-based iot
+  deployments}. In \bibinfo{booktitle}{\emph{2019 IEEE symposium on security
+  and privacy (sp)}}. IEEE, \bibinfo{pages}{1362--1380}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Antonakakis, April, Bailey, Bernhard,
+  Bursztein, Cochran, Durumeric, Halderman, Invernizzi, Kallitsis,
+  et~al\mbox{.}}{Antonakakis et~al\mbox{.}}{2017}]%
+        {antonakakis2017understanding}
+\bibfield{author}{\bibinfo{person}{Manos Antonakakis}, \bibinfo{person}{Tim
+  April}, \bibinfo{person}{Michael Bailey}, \bibinfo{person}{Matt Bernhard},
+  \bibinfo{person}{Elie Bursztein}, \bibinfo{person}{Jaime Cochran},
+  \bibinfo{person}{Zakir Durumeric}, \bibinfo{person}{J~Alex Halderman},
+  \bibinfo{person}{Luca Invernizzi}, \bibinfo{person}{Michalis Kallitsis},
+  {et~al\mbox{.}}} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Understanding the mirai botnet}. In
+  \bibinfo{booktitle}{\emph{26th $\{$USENIX$\}$ security symposium
+  ($\{$USENIX$\}$ Security 17)}}. \bibinfo{pages}{1093--1110}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Apthorpe, Reisman, and Feamster}{Apthorpe
+  et~al\mbox{.}}{2017}]%
+        {apthorpe2017smart}
+\bibfield{author}{\bibinfo{person}{Noah Apthorpe}, \bibinfo{person}{Dillon
+  Reisman}, {and} \bibinfo{person}{Nick Feamster}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{A smart home is no castle: Privacy vulnerabilities
+  of encrypted iot traffic}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1705.06805}}
+  (\bibinfo{year}{2017}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Baumann, Odefey, Hudert, Falkenthal, and
+  Breitenb{\"u}cher}{Baumann et~al\mbox{.}}{2018}]%
+        {baumann2018utilising}
+\bibfield{author}{\bibinfo{person}{Felix~W Baumann}, \bibinfo{person}{Ulrich
+  Odefey}, \bibinfo{person}{Sebastian Hudert}, \bibinfo{person}{Michael
+  Falkenthal}, {and} \bibinfo{person}{Uwe Breitenb{\"u}cher}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Utilising the Tor Network for IoT Addressing and
+  Connectivity.}. In \bibinfo{booktitle}{\emph{CLOSER}}.
+  \bibinfo{pages}{27--34}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Chaabane, Manils, and Kaafar}{Chaabane
+  et~al\mbox{.}}{2010}]%
+        {chaabane2010digging}
+\bibfield{author}{\bibinfo{person}{Abdelberi Chaabane}, \bibinfo{person}{Pere
+  Manils}, {and} \bibinfo{person}{Mohamed~Ali Kaafar}.}
+  \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Digging into anonymous traffic: A deep analysis of
+  the tor anonymizing network}. In \bibinfo{booktitle}{\emph{2010 fourth
+  international conference on network and system security}}. IEEE,
+  \bibinfo{pages}{167--174}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Dingledine, Mathewson, and
+  Syverson}{Dingledine et~al\mbox{.}}{2004}]%
+        {dingledine2004tor}
+\bibfield{author}{\bibinfo{person}{Roger Dingledine}, \bibinfo{person}{Nick
+  Mathewson}, {and} \bibinfo{person}{Paul Syverson}.}
+  \bibinfo{year}{2004}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Tor: The second-generation onion router}}.
+\newblock \bibinfo{type}{{T}echnical {R}eport}. \bibinfo{institution}{Naval
+  Research Lab Washington DC}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Fabian and Feldhaus}{Fabian and
+  Feldhaus}{2014}]%
+        {fabian2014privacy}
+\bibfield{author}{\bibinfo{person}{Benjamin Fabian} {and}
+  \bibinfo{person}{Tobias Feldhaus}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Privacy-preserving data infrastructure for smart
+  home appliances based on the Octopus DHT}.
+\newblock \bibinfo{journal}{\emph{Computers in Industry}} \bibinfo{volume}{65},
+  \bibinfo{number}{8} (\bibinfo{year}{2014}), \bibinfo{pages}{1147--1160}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hiller, Pennekamp, Dahlmanns, Henze,
+  Panchenko, and Wehrle}{Hiller et~al\mbox{.}}{2019}]%
+        {hiller2019tailoring}
+\bibfield{author}{\bibinfo{person}{Jens Hiller}, \bibinfo{person}{Jan
+  Pennekamp}, \bibinfo{person}{Markus Dahlmanns}, \bibinfo{person}{Martin
+  Henze}, \bibinfo{person}{Andriy Panchenko}, {and} \bibinfo{person}{Klaus
+  Wehrle}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Tailoring onion routing to the Internet of Things:
+  Security and privacy in untrusted environments}. In
+  \bibinfo{booktitle}{\emph{2019 IEEE 27th International Conference on Network
+  Protocols (ICNP)}}. IEEE, \bibinfo{pages}{1--12}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hoang and Pishva}{Hoang and Pishva}{2015}]%
+        {hoang2015tor}
+\bibfield{author}{\bibinfo{person}{Nguyen~Phong Hoang} {and}
+  \bibinfo{person}{Davar Pishva}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{A TOR-based anonymous communication approach to
+  secure smart home appliances}. In \bibinfo{booktitle}{\emph{2015 17th
+  International Conference on Advanced Communication Technology (ICACT)}}.
+  IEEE, \bibinfo{pages}{517--525}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Juarez, Imani, Perry, Diaz, and Wright}{Juarez
+  et~al\mbox{.}}{2016}]%
+        {juarez2016toward}
+\bibfield{author}{\bibinfo{person}{Marc Juarez}, \bibinfo{person}{Mohsen
+  Imani}, \bibinfo{person}{Mike Perry}, \bibinfo{person}{Claudia Diaz}, {and}
+  \bibinfo{person}{Matthew Wright}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Toward an efficient website fingerprinting
+  defense}. In \bibinfo{booktitle}{\emph{European Symposium on Research in
+  Computer Security}}. Springer, \bibinfo{pages}{27--46}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kollmann and Beresford}{Kollmann and
+  Beresford}{2017}]%
+        {kollmann2017cost}
+\bibfield{author}{\bibinfo{person}{Stephan~A Kollmann} {and}
+  \bibinfo{person}{Alastair~R Beresford}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{The Cost of Push Notifications for Smartphones
+  using Tor Hidden Services}. In \bibinfo{booktitle}{\emph{2017 IEEE European
+  Symposium on Security and Privacy Workshops (EuroS\&PW)}}. IEEE,
+  \bibinfo{pages}{76--85}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Paganelli and Parlanti}{Paganelli and
+  Parlanti}{2012}]%
+        {paganelli2012dht}
+\bibfield{author}{\bibinfo{person}{Federica Paganelli} {and}
+  \bibinfo{person}{David Parlanti}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{A DHT-based discovery service for the Internet of
+  Things}.
+\newblock \bibinfo{journal}{\emph{Journal of Computer Networks and
+  Communications}}  \bibinfo{volume}{2012} (\bibinfo{year}{2012}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Sharifara, Rahim, and Anisi}{Sharifara
+  et~al\mbox{.}}{2014}]%
+        {sharifara2014general}
+\bibfield{author}{\bibinfo{person}{Ali Sharifara}, \bibinfo{person}{Mohd
+  Shafry~Mohd Rahim}, {and} \bibinfo{person}{Yasaman Anisi}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{A general review of human face detection including
+  a study of neural networks and Haar feature-based cascade classifier in face
+  detection}. In \bibinfo{booktitle}{\emph{2014 International Symposium on
+  Biometrics and Security Technologies (ISBAST)}}. IEEE,
+  \bibinfo{pages}{73--78}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Song, Li, Mei, Yu, Xing, and Cheng}{Song
+  et~al\mbox{.}}{2017}]%
+        {song2017privacy}
+\bibfield{author}{\bibinfo{person}{Tianyi Song}, \bibinfo{person}{Ruinian Li},
+  \bibinfo{person}{Bo Mei}, \bibinfo{person}{Jiguo Yu},
+  \bibinfo{person}{Xiaoshuang Xing}, {and} \bibinfo{person}{Xiuzhen Cheng}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{A privacy preserving communication protocol for IoT
+  applications in smart homes}.
+\newblock \bibinfo{journal}{\emph{IEEE Internet of Things Journal}}
+  \bibinfo{volume}{4}, \bibinfo{number}{6} (\bibinfo{year}{2017}),
+  \bibinfo{pages}{1844--1852}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wang and Borisov}{Wang and Borisov}{2012}]%
+        {wang2012octopus}
+\bibfield{author}{\bibinfo{person}{Qiyan Wang} {and} \bibinfo{person}{Nikita
+  Borisov}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Octopus: A secure and anonymous DHT lookup}. In
+  \bibinfo{booktitle}{\emph{2012 IEEE 32nd International Conference on
+  Distributed Computing Systems}}. IEEE, \bibinfo{pages}{325--334}.
+\newblock
+
+
+\end{thebibliography}

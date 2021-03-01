@@ -1,0 +1,56 @@
+\chapter{A privacy-preserving framework for IoT devices}
+
+In this chapter, we propose a privacy-preserving framework for generalized IoT devices by utilizing the Tor network. We propose communication and attacker models, and state security and usability features of the framework.
+
+\section{Communication models}
+
+In this thesis, we consider only one communication model. In our model, the IoT devices interacts with end-user devices (e.g. smartphones). The end-user devices have direct access and can remotely control the IoT device. 
+
+It is worth mentioning that there exists another communication model for IoT systems. IoT devices sometimes need to communicate with each other to enable automatic workflows. However, we consider the first model to be primary in IoT systems and focus on it. We briefly discuss the IoT-to-IoT scenario in the discussion section. 
+
+\section{Threat model}
+
+Our analysis assumes an active network threat model where attackers are located both inside and outside the home network. The attackers may have capabilities similar or same to an ISP.
+
+Traditionally, IoT devices run globally searchable services\cite{antonakakis2017understanding}. Consequently, the IoT devices are exposed to potential vulnerabilities and attacks. Attackers can exploit vulnerabilities by measures such as enumeration or DoS attacks, in order to steal the data or takeover the whole device.
+
+Furthermore, mobile devices running paired service application with home IoT devices usually access the Internet via untrusted networks cellular networks or free Wi-Fi hotspots. In such case, on-path attackers can capture and inspect into data packets, retrieve sensitive data or even locate and attack the endpoint of communication. 
+
+In the following, we discuss potential attackers, their capabilities and security guarantees of our system. 
+\subsection{Actors and capabilities}
+We consider the following two types of adversaries:
+
+\textbf{In-network adversaries} are adversaries who have access to the users' home network. Such adversaries may eavesdrop and identify traffic from particular devices in the user's home, including the doorbell device and router.
+
+
+\textbf{Out of network but on-path adversaries} are adversaries located outside the user's home network (and have no access to it). Such adversaries cannot differentiate between devices in the network, but are able to eavesdrop, analyze modify the user's traffic in aggregate.
+
+Furthermore, the adversary can obtain and analyze IoT devices and client devices. They may inspect into programs and source code, and use their copy of client apps to attempt to access the user's device. Also, they may have access to the system's adapted push notification service, which means they can eavesdrop, modify the packets or send packets to the user's phone at his will.
+\subsection{Security Guarantees}
+
+\begin{itemize}
+	\item \textbf{Strong authentication}: The device should only be accessible to authorized clients. \textit{Out-of-network adversaries} should not have access to the data (including history of usage and data captures by the sensor) regardless of measurement they take.
+	\item \textbf{Anonymity on both side}: The communication between the client and home IoT device should behind Tor. \textit{Out-of-network adversaries} should  get identical information (including IP address and physical address) of neither the client or IoT device.
+	\item \textbf{End-to-end security}: The traffic between the client and home IoT devices should be end-to-end encrypted. Neither \textit{In-network adversaries} or \textit{Out-of-network adversaries} 
+	\item \textbf{Attack resistance}: The attacks surface against the IoT devices should be small (e.g. resists DoS attacks)
+\end{itemize}
+
+\section{Feature}
+In addition to the security guarantees, the system should have a few usability features:
+
+\begin{itemize}
+	\item \textbf{Direct access from end-user device.} The system should be directly accessible from an end-user device. The user should be able to remotely control and retrieve data from the device.
+	\item \textbf{NAT-piercing.}  For compatibility with typical home networks, the system should work on devices that are located behind firewalls or gateway routers and do not have a public IP address.
+	\item \textbf{Decentralization.} The system should try to avoid all points of decentralization. The user should not need to register to third-party services or external websites to have the service running or retrieve data.
+	\item \textbf{Real-time data transmission.} The system should let its user to retrieve data instantly, and send notification to end-user device whenever the sensor has something detected.
+\end{itemize}
+
+
+
+\section{Methodology}
+In order to achieve the security guarantees described above, we make the approach to introduce the Tor network in the communication between home IoT devices and end-user devices. The Tor network, a common approach for achieving anonymity\cite{dingledine2004tor}, has the following features, which makes it a good choice for privacy-preserving systems:
+
+\begin{itemize}
+	\item Anonymous connection: Taking advantage of the structure of onion network, Tor client users are kept anonymous. Traffic packets are sent across multiple volunteer-hosted nodes (called onion relays). Packets are altered at each of the nodes by either adding or removing one layer of encryption. The client establishes a circuit, involving a number of onion relays to the destination. In a Tor circuit, each relay only knows 1) which relay it is sending data to and 2) which relay has sent it data. In such structure, the client user is kept anonymous during data transmission. 
+	\item Hiding service locations: In addition, onion services also keep the server (receiver) anonymous. By the nature of anonymity, it protects the server from denial-of-service (DoS) and physical attacks. As a side effect, onion services can run on devices that are behind a firewall or gateway router, and thus providing the feature of NAT-piercing. Given that most home network are behind gateway routers and home IoT devices usually do not have a public IP address, such side effect is very attractive for IoT devices.
+\end{itemize}
