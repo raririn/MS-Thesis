@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{17}
+\begin{thebibliography}{20}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -59,6 +59,19 @@
 \url{https://www.torproject.org/about/history/}
 \showURL{%
 \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Acar, Backes, Bugiel, Fahl, McDaniel, and
+  Smith}{Acar et~al\mbox{.}}{2016}]%
+        {acar2016sok}
+\bibfield{author}{\bibinfo{person}{Yasemin Acar}, \bibinfo{person}{Michael
+  Backes}, \bibinfo{person}{Sven Bugiel}, \bibinfo{person}{Sascha Fahl},
+  \bibinfo{person}{Patrick McDaniel}, {and} \bibinfo{person}{Matthew Smith}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Sok: Lessons learned from android security research
+  for appified software platforms}. In \bibinfo{booktitle}{\emph{2016 IEEE
+  Symposium on Security and Privacy (SP)}}. IEEE, \bibinfo{pages}{433--451}.
+\newblock
 
 
 \bibitem[\protect\citeauthoryear{Alrawi, Lever, Antonakakis, and
@@ -166,6 +179,20 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Hilt, Kropotov, Merc{\^e}s, Rosario, and
+  Sancho}{Hilt et~al\mbox{.}}{2019}]%
+        {hilt2019internet}
+\bibfield{author}{\bibinfo{person}{Stephen Hilt}, \bibinfo{person}{Vladimir
+  Kropotov}, \bibinfo{person}{Fernando Merc{\^e}s}, \bibinfo{person}{Mayra
+  Rosario}, {and} \bibinfo{person}{David Sancho}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{The internet of things in the cybercrime
+  underground}.
+\newblock \bibinfo{journal}{\emph{Trend Micro Research}}
+  (\bibinfo{year}{2019}).
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Hoang and Pishva}{Hoang and Pishva}{2015}]%
         {hoang2015tor}
 \bibfield{author}{\bibinfo{person}{Nguyen~Phong Hoang} {and}
@@ -224,6 +251,19 @@
   detection}. In \bibinfo{booktitle}{\emph{2014 International Symposium on
   Biometrics and Security Technologies (ISBAST)}}. IEEE,
   \bibinfo{pages}{73--78}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Shumailov, Simon, Yan, and Anderson}{Shumailov
+  et~al\mbox{.}}{2019}]%
+        {shumailov2019hearing}
+\bibfield{author}{\bibinfo{person}{Ilia Shumailov}, \bibinfo{person}{Laurent
+  Simon}, \bibinfo{person}{Jeff Yan}, {and} \bibinfo{person}{Ross Anderson}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Hearing your touch: A new acoustic side channel on
+  smartphones}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1903.11137}}
+  (\bibinfo{year}{2019}).
 \newblock
 
 

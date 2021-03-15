@@ -29,6 +29,8 @@ Warning--no key, author in torproject
 Warning--no author, editor, organization, or key in torproject
 Warning--empty author in torproject
 Warning--empty year in torproject
+Warning--empty publisher in acar2016sok
+Warning--empty address in acar2016sok
 Warning--empty publisher in alrawi2019sok
 Warning--empty address in alrawi2019sok
 Warning--empty publisher in antonakakis2017understanding
@@ -41,6 +43,8 @@ Warning--empty publisher in chaabane2010digging
 Warning--empty address in chaabane2010digging
 Warning--empty publisher in hiller2019tailoring
 Warning--empty address in hiller2019tailoring
+Warning--no number and no volume in hilt2019internet
+Warning--page numbers missing in both pages and numpages fields in hilt2019internet
 Warning--empty publisher in hoang2015tor
 Warning--empty address in hoang2015tor
 Warning--empty publisher in juarez2016toward
@@ -50,47 +54,49 @@ Warning--empty address in kollmann2017cost
 Warning--page numbers missing in both pages and numpages fields in paganelli2012dht
 Warning--empty publisher in sharifara2014general
 Warning--empty address in sharifara2014general
+Warning--no number and no volume in shumailov2019hearing
+Warning--page numbers missing in both pages and numpages fields in shumailov2019hearing
 Warning--empty publisher in wang2012octopus
 Warning--empty address in wang2012octopus
-You've used 17 entries,
+You've used 20 entries,
             5719 wiz_defined-function locations,
-            1385 strings with 17996 characters,
-and the built_in function-call counts, 20817 in all, are:
-= -- 2368
-> -- 809
+            1398 strings with 18620 characters,
+and the built_in function-call counts, 24594 in all, are:
+= -- 2854
+> -- 998
 < -- 0
-+ -- 287
-- -- 276
-* -- 1520
-:= -- 2106
-add.period$ -- 84
-call.type$ -- 17
-change.case$ -- 127
-chr.to.int$ -- 17
-cite$ -- 66
-duplicate$ -- 1860
-empty$ -- 1303
-format.name$ -- 336
-if$ -- 4939
++ -- 352
+- -- 336
+* -- 1824
+:= -- 2506
+add.period$ -- 99
+call.type$ -- 20
+change.case$ -- 154
+chr.to.int$ -- 20
+cite$ -- 75
+duplicate$ -- 2155
+empty$ -- 1512
+format.name$ -- 408
+if$ -- 5865
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 66
-newline$ -- 174
-num.names$ -- 120
-pop$ -- 810
+missing$ -- 79
+newline$ -- 197
+num.names$ -- 144
+pop$ -- 939
 preamble$ -- 1
-purify$ -- 267
+purify$ -- 321
 quote$ -- 0
-skip$ -- 663
+skip$ -- 756
 stack$ -- 0
-substring$ -- 1470
-swap$ -- 189
+substring$ -- 1692
+swap$ -- 213
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 454
-warning$ -- 41
-while$ -- 116
+type$ -- 516
+warning$ -- 47
+while$ -- 131
 width$ -- 0
-write$ -- 328
-(There were 42 warnings)
+write$ -- 377
+(There were 48 warnings)

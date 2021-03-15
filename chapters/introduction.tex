@@ -2,20 +2,54 @@
 
 \section{Background on IoT devices}
 
+Nowadays, thanks to the rapid growth of material science, it has been possible to put microprocessors into various size of home appliances. The microprocessors enable home appliances to connect to the Internet and communicate with other devices. Such development has brought the human society into the era of Internet-of-Things (IoT). 
+
+Unlike traditional computing platforms, IoT devices are different in 1) operating continuously, 2) receiving data from sensors, 3) constantly communicating with other devices to report sensitive data. Because of the nature of IoT, the devices are usually located publicly on the Internet. 
+
+There is also a tremendous business potential for IoT devices. There have been a great number of IoT devices on the market, including healthcare devices (monitors, etc.), remote controllers (TV, oven, recorder, etc.), communication devices (phones, VoIP, etc.) and many more \cite{hoang2015tor}. These IoT devices usually have the following common features:
+
+\begin{itemize}
+	\item Receiving data from sensor.
+	\item Processing data.
+	\item Sending sensitive data to end-user devices. 
+\end{itemize}
+
 \section{Motivation: need for privacy-preserving framework}
+However, connecting home appliances to the Internet introduces vulnerabilities to malicious attacks. An attacker may be able to obtain private information, such as the user's geographic info, preference, or payment information. Attackers may even take over the control of such appliances, and use them for further malicious attacks into other systems in the home network. 
 
 \subsection{Privacy threats of IoT devices}
+In reality, there have been a number of serious security and privacy incidents with commercial IoT devices.
+
+Back in 2016, a large DDoS attack was launched on service provider Dyn using the Mirai Botnet \cite{antonakakis2017understanding}, brought down sites including Twitter, the Guardian, Netflix and many more. Devices including digital cameras and DVR players were attacked and infected with malware. In early 2019, the FDA confirmed that St. Jude Medical's implantable cardiac devices have vulnerabilities that allows hackers to read the data and even take over the device. In late 2019, the Ring doorbell had suffered from a data leak, exposing important user data including emails, passwords, time zones and names given to specific devices.
+
+There already exists a tich literature that examines the security and privacy properties of these devices \cite{acar2016sok} \cite{hilt2019internet} \cite{shumailov2019hearing} \cite{apthorpe2017smart}. As we describe in the next chapter, the security and privacy properties of IoT systems have been studied widely.
+
 
 \subsection{Challenges}
 
+There are a few challenges for a privacy-preserving settings on home IoT devices. 
+
+\begin{itemize}
+	\item Push notifications. Push notifications, while being a very important part of IoT services, are the first obstacles to build a privacy-preserving framework. Ideally, a privacy-preserving system would like to avoid any point of centralization and so does the push notification part. However, it is hard to keep all useful functions while achieving fully decentralization on modern mobile systems. As we described later in the discussion section, one would have to either adapt an existing commercial service, or implement her own system with less data and energy efficiency.
+	\item Limited computational power. Home IoT devices are usually built in small-size, and do not have high computational power as traditional computing platform such as desktop computers and cloud servers. The limited power is another difficulty building privacy-preserving systems, as the IoT devices will not be able to do heavy computations on-device.
+\end{itemize}
+
 \section{Overview of approach}
+
+In this thesis, we take a different track and rather than attempt to examine one aspect of IoT devices up close, we adopt a more holistic approach. We ask the question, "is it possible to create a privacy-preserving IoT device that offers the same features as commercially-available IoT devices?" Our goal is to determine the feasibility and potential performance costs of duplicating the capabilities of feature-rich IoT devices but in a privacy-preserving way.
+
+In our approach, we use Tor (The Onion Router) for the purpose of obscuring the communication between IoT devices and end-user devices. Tor has a few excellent features for the task, which we describe later in this chapter.
 
 \section{Scientific questions and contributions}
 
+In answer to the above questions and challenges, this Master's thesis proposes a novel privacy-preserving framework for Internet-of-Things (IoT) devices that obscures the devices' traffic patterns and implements and example application that uses this framework. A core goal of this work is to develop feature-rich IoT devices that offer similar features to existing (but non-privacy-preserving) IoT devices.
+
+In addition, we conduct a case-study, which considers a specific type of home IoT devices, namely an Internet-enabled video doorbell. The specific system includes a number of interesting features which may be challenging in a privacy-preserving settings, which include but not limited to face and motion detection, video and audio communications and push notifications. We tackle the challenges and implement the feasible system based on our proposed design.
+
 \section{Background on Tor}
 \label{sec:torbackground}
-The Tor (The Onion Router) network, which was developed in the 1990s and deployed in 2002, is an overlay protocol to route traffic through multiple servers and encrypt it each step of the way (\cite{torproject}, \cite{chaabane2010digging}). By directing internet traffic through the onion network which consists of several thousands volunteer overlays, Tor conceals users' location and usage from adversaries.
+The Tor network, which was developed in the 1990s and deployed in 2002, is an overlay protocol to route traffic through multiple servers and encrypt it each step of the way (\cite{torproject}, \cite{chaabane2010digging}). By directing internet traffic through the onion network which consists of several thousands volunteer overlays, Tor conceals users' locations and usage from adversaries.
 
-Tor allows the consumption of \textit{Hidden Services}. Such services are only reachable within the onion network by users running the Tor client. Hidden services are identified by \textit{.onion} addresses.
+Tor allows the creation of \textit{Hidden Services}, which conceal the network locations of Internet services. Such services are only reachable within the onion network by users running the Tor client. Hidden services are identified by \textit{.onion} addresses.
 
-The security features of Tor makes it an attractive solution for IoT communications. Besides, Tor has a few great usability features including NAT piercing and DoS prevention, which are very necessary for IoT devices. Furthermore, the system of Tor is actively maintained and researched. Thus, it is likely that flaws and vulnerabilities in the system can be fixed in reasonable time.
+Several features of Tor make it attractive for privacy-preserving IoT communications. Because the nature of Tor requires all peers to be connected, Tor maintains the connections after they are initiated to build the circuits. As an side-effect, all peers can receive data regardless of whether they are behind a firewall or NAT. These features, including providing NAT piercing and prevention of DoS attacks, are very important for home IoT devices (as home IoT devices are usually located in typical home networks, which tend to be behind NAT). Furthermore, the system of Tor is actively maintained and researched. Thus, it is likely that flaws and vulnerabilities in this system can be fixed in reasonable time.
