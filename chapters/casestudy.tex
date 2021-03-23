@@ -1,16 +1,16 @@
 \chapter{Case-study: A privacy-Preserving Video Doorbell}
 
-In this chapter, we present a case study which focuses on the design and implementation of a specific type of IoT devices - an Internet-enabled video doorbell. We assume the communication model to be the user-to-IoT model, where the IoT device (video doorbell) is located in the user's home network and communicates with the end-user device (smartphone).
+This chapter presents a case study that focuses on the design and implementation of a specific type of IoT device - an Internet-enabled video doorbell. We assume the communication model to be the user-to-IoT model. The IoT device (video doorbell) is located in the user’s home network and communicates with the end-user device (smartphone).
 
 \section{System design}
-In addition to the security guarantee described in the last chapter, video doorbell systems has some unique features. Here we present design of the specific system.
+In addition to the security guarantee described in the last chapter, video doorbell systems have unique features. Here we present the design of the specific system.
 
 \subsection{Use case analysis}
-We consider there should be four main use cases in the system:
+We consider there should be four prominent use cases in the system:
 \begin{itemize}
-	\item \textbf{Registration.}The user should be able to register a mobile device to the doorbell. Only trusted devices can access the data and manage settings.
+	\item \textbf{Registration.} The user should be able to register a mobile device to the doorbell. Only trusted devices can access the data and manage settings.
 	\item \textbf{Video streaming.} The user with a registered device should be able to access video captured by the camera at any time he wishes.
-	\item \textbf{Face detection and push notification.}Whenever a visitor shows in front of the camera and/or pressed the physical doorbell button, all users registered to the doorbell should receive a push notification message.
+	\item \textbf{Face detection and push notification.} Whenever a visitor shows in front of the camera and/or pressed the physical doorbell button, all users registered to the doorbell should receive a push notification message.
 	\item \textbf{Setting management.} The user should be able to manage settings, including changing face detection threshold, recording voice to be played, removing trusted devices, etc.
 \end{itemize}
 
@@ -23,7 +23,7 @@ We consider there should be four main use cases in the system:
 \end{figure}
 
 \subsection{Network architecture}
-\textit{Fig. \ref{fig:architecture}} shows the network architecture of the system. Both the client and server are behind Tor for anonymity. In addition, we configure Tor on the doorbell side to use Snowflake \cite{snowflake} pluggable transport for obscuration.
+\textit{Fig. \ref{fig:architecture}} shows the network architecture of the system. Both the client and server are behind Tor for anonymity. Besides, we configure Tor on the doorbell side to use Snowflake \cite{snowflake} pluggable transport for obscuration.
 
 \begin{figure}
 	\includegraphics[width=\linewidth]{architecture.png}
@@ -33,15 +33,15 @@ We consider there should be four main use cases in the system:
 
 \subsection{Flow structure}
 
-\textbf{Registration.} The very first stage of using the system is the registration process. To have their devices registered on the doorbell, the users should first connect to the same wireless network with the doorbell. Then the app should allow the user to easily register (by searching the doorbell using mDNS). During the registration process, the app performs a key exchange with the doorbell and receives randomly generated credentials for user to set up in Tor (Orbot).
+\textbf{Registration.} The very first stage of using the system is the registration process. To have their devices registered on the doorbell, the users should first connect to the same wireless network with the doorbell. Then the app should allow the user to register (by searching the doorbell using mDNS) easily. During the registration process, the app performs a key exchange with the doorbell and receives randomly generated credentials for the user to set up in Tor (Orbot). 
 
-\textbf{Playing video and authentication.} As soon as the user presses the PLAY button in the app, it will work with Orbot and send a RTMP PLAY request to the video server running on the doorbell. The video server will then forward an authentication request (in the form of a HTTP GET request) to the authentication server (running on another port on the doorbell). The server should serve video to the user through Tor if the authentication succeeds (i.e. the app is registered and has not been revoked), and shut down the connection otherwise.
+\textbf{Playing video and authentication.} As soon as the user presses the PLAY button in the app, it will work with Orbot and send an RTMP PLAY request to the video server running on the doorbell. The video server will then forward an authentication request (in the form of an HTTP GET request) to the authentication server (running on another port on the doorbell). The server should serve video to the user through Tor if the authentication succeeds (i.e., the app is registered and has not been revoked) and shut down the connection otherwise.
 \textit{Fig. \ref{fig:playvideo}} shows the flow of playing video and authentication.
 
-\textbf{Face detection, push notification and answering the door.} The doorbell constantly detects if there is a human face appearing in front of the camera. Whenever a visitor appears, the system should send a notification to the user's devices.
+\textbf{Face detection, push notification, and answering the door.} The doorbell constantly detects if there is a human face appearing in front of the camera. Whenever a visitor appears, the system should send a notification to the user's devices.
 
-By clicking on the notification message on her phone, the user should be able to access the video immediately, and choose to play pre-recorded audio on the doorbell device to the visitor.
-\textit{Fig. \ref{fig:push}} shows the flow of face detection, push notification and answering the door.
+By clicking on the notification message on her phone, the user should be able to access the video immediately and choose to play pre-recorded audio on the doorbell device to the visitor.
+\textit{Fig. \ref{fig:push}} shows the flow of face detection, push notification, and answering the door.
 
 \begin{figure}
 	\includegraphics[width=\linewidth]{Sequence_diagram_push.pdf}
@@ -60,20 +60,20 @@ By clicking on the notification message on her phone, the user should be able to
 \end{figure}
 
 \section{Specs of the devices}
-We configured a RaspberryPi 4 model B as the doorbell device. The RaspberryPi 4 has a built-in WiFi antenna, and we combined the device with a camera module and external sound card. The RaspberryPi ran the Raspbian Jessie OS, which is a version of Debian Linux optimized for the RaspberryPi platform.
+We configured a RaspberryPi 4 model B as the doorbell device. The RaspberryPi 4 has a built-in Wi-Fi antenna, and we combined the device with a camera module and external sound card. The RaspberryPi ran the Raspbian Jessie OS, which is a version of Debian Linux optimized for the RaspberryPi platform.
 
-The RaspberryPi 4 model is equipped with more than 2GB of RAM and a CPU with 1.5 GHz, which makes it more than enough for a typical home IoT device.
+The RaspberryPi 4 model is equipped with more than 2GB of RAM and a CPU of 1.5 GHz, making it more than enough for a typical home IoT device.
 
 \section{Face detection}
 
-For the face detection task, we use pre-trained CascadeClassifier. Cascade Classifiers based on Haar-like features was introduced in 2001 and still widely used in face detection \cite{sharifara2014general}. Pre-trained Cascade Classifiers have short execution time and small calculation load, which makes them a good choice for on-device calculations on IoT devices with low computational power.
+For the face detection task, we use the pre-trained CascadeClassifier. Cascade Classifiers based on Haar-like features were introduced in 2001 and are still widely used in face detection \cite{sharifara2014general}. Pre-trained Cascade Classifiers have a short execution time and small calculation load, making them a good choice for on-device calculations on IoT devices with low computational power.
 
-In the actual implementation, we sample 6 frames per second, transform them into gray-scale images and feed them to the pre-trained classifiers. The detector is disabled for 5 seconds (which also matches the interval of push notification) after a successful detection to prevent abusing resources.
+We sample 6 frames per second in the actual implementation, transform them into gray-scale images, and feed them to the pre-trained classifiers. The detector is disabled for 5 seconds (which also matches the push notification interval) after a successful detection to prevent abusing resources. 
 
 \section{Push notification}
 To notify the user whenever a visitor is present in front of the camera, the system adapts Google's Firebase Messaging Service.
 
-We designed two types of messages: \textbf{BELL} (sent when someone pushes the physical button of the doorbell device) and \textbf{DOOR} (sent when someone comes in front of the camera). The packet includes a message (including the type mentioned above), a timestamp and the user's instance token. The message and timestamp are encrypted using AES-256-GCM with pre-shared keys (which are shared in the registration process described later).
+We designed two types of messages: \textbf{BELL} (sent when someone pushes the doorbell device’s physical button) and \textbf{DOOR} (sent when someone comes in front of the camera). The packet includes a message (including the type mentioned above), a timestamp and the user's instance token. The message and timestamp are encrypted using AES-256-GCM with pre-shared keys (which are shared in the registration process described later).
 
 In order to prevent the third-party service provider from obtaining information by analyzing the timing information, we further cover the traffic using another message type \textbf{DUMMY} and send messages in a fixed interval of 5 seconds. The dummy packets have very similar structure with the normal ones, but has a different type to be recognized by the client app. By padding the dummy packets to the traffic, the system sends a packet every 5 second.
 
