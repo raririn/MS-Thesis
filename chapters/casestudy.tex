@@ -73,9 +73,9 @@ We sample 6 frames per second in the actual implementation, transform them into 
 \section{Push notification}
 To notify the user whenever a visitor is present in front of the camera, the system adapts Google's Firebase Messaging Service.
 
-We designed two types of messages: \textbf{BELL} (sent when someone pushes the doorbell device’s physical button) and \textbf{DOOR} (sent when someone comes in front of the camera). The packet includes a message (including the type mentioned above), a timestamp and the user's instance token. The message and timestamp are encrypted using AES-256-GCM with pre-shared keys (which are shared in the registration process described later).
+We designed two types of messages: \textbf{BELL} (sent when someone pushes the doorbell device’s physical button) and \textbf{DOOR} (sent when someone comes in front of the camera). The packet includes a message (including the type mentioned above), a timestamp, and the user's instance token. The message and timestamp are encrypted using AES-256-GCM with pre-shared keys (which are shared in the registration process described later).
 
-In order to prevent the third-party service provider from obtaining information by analyzing the timing information, we further cover the traffic using another message type \textbf{DUMMY} and send messages in a fixed interval of 5 seconds. The dummy packets have very similar structure with the normal ones, but has a different type to be recognized by the client app. By padding the dummy packets to the traffic, the system sends a packet every 5 second.
+In order to prevent the third-party service provider from obtaining information by analyzing the timing information, we further cover the traffic using another message type \textbf{DUMMY}, and send messages in a fixed interval of 5 seconds. The dummy packets have very similar structures to the normal ones, but have different types to be recognized by the client app. By padding the dummy packets to the traffic, the system sends a packet every 5 seconds.
 
 
 
@@ -83,15 +83,15 @@ In order to prevent the third-party service provider from obtaining information 
 
 
 \section{Video streaming}
-The doorbell device captures video using the RaspberryPi's camera module and audio through an external sound card. The video captured is encoded and served in flv format through HTTP. We chose to decode the videos in flv format because it is consistent among different operating systems and good for future enhancement of support on other platforms. 
+The doorbell device captures video using the RaspberryPi's camera module and audio through an external sound card. The video captured is encoded and served in flv format through HTTP. We chose to decode the videos in flv format because it is consistent among different operating systems and suitable for future enhancement of support on other platforms. 
 
-Our system adapts two layers of authentication on top of video streaming. The first layer of authentication is the \textit{onion authentication}. Provided along with Tor, it requires the user to have certain credentials set up in their Tor (Orbot) client. The onion host refuses to connect if one do not have such settings, or have different settings. The second layer of authentication is the \textit{RTMP authentication}. In order to access the video, the user will have to add a couple of arguments in additional to their RTMP PLAY request. \textit{Fig. \ref{fig:url}} shows the components of the video serving url. In the url \textit{appname} and \textit{streamname} are Nginx settings and of the user's choice. \textit{usertoken} is a random number securely generated from the client app (upon first launch) and \textit{userpassword} is calculated by the following equation:
+Our system adopts two layers of authentication on top of video streaming. The first layer of authentication is \textit{onion authentication}. Provided along with Tor, it requires the user to have specific credentials set up in their Tor (Orbot) client. The onion host refuses to connect if one does not have such settings or has different settings. The second layer of authentication is the \textit{RTMP authentication}. In order to access the video, the user will have to add a couple of arguments in addition to their RTMP PLAY request. \textit{Fig. \ref{fig:url}} shows the components of the video serving URL. In the URL, \textit{appname} and \textit{streamname} are Nginx settings and of the user's choice. \textit{usertoken} is a random number securely generated from the client app (upon the first launch), and the following equation calculates userpassword:
 
 \[
 userpassword = HMAC-SHA256(seed, usertoken)
 \]
 
-The server checks if \textit{all} credentials match, and shut down the connection if any are incorrect.
+The server checks if \textit{all} credentials match and shut down the connection if any are incorrect.
 
 \begin{figure}
 	\includegraphics[width=\linewidth]{fig_url.jpg}
@@ -102,7 +102,7 @@ The server checks if \textit{all} credentials match, and shut down the connectio
 
 
 \section{Android App}
-We implemented an Android App to pair with the video doorbell service. The app runs on the end-user device, and grant user direct access to the doorbell device and data. The app has the following primary functions:
+We implemented an Android App to pair with the video doorbell service. The app runs on the end-user device and grants users direct access to the doorbell device and data. The app has the following primary functions:
 
 \subsection{Registration} For registration, the client sends JSON-formatted data in a HTTP POST request to port 8080 of the server (running on the doorbell device). The server will then response with another JSON-formatted data, including the seed (randomly generated 16-bit integer) for calculating the secret keys, the onion hostname for accessing the video service and the onion authentication cookie. The app will then automatically send a configuration string (including the authentication cookie) required by Orbot to the user's clipboard, for her to easily set up the service.
 
