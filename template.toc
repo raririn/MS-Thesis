@@ -1,11 +1,11 @@
-\contentsline {pseudochapter}{\sc Acknowledgments}{v}%
-\contentsline {pseudochapter}{\sc Preface}{vi}%
+\contentsline {pseudochapter}{\sc Acknowledgments}{vi}%
+\contentsline {pseudochapter}{\sc Preface}{vii}%
 \par \vspace {6\p@ }
 \noindent {\sc Chapter}
 \vspace {-3\p@ }
 \contentsline {chapter}{\numberline {1}Introduction}{1}%
 \contentsline {section}{\numberline {1.1}Background on IoT devices}{1}%
-\contentsline {section}{\numberline {1.2}Motivation: need for privacy-preserving framework}{2}%
+\contentsline {section}{\numberline {1.2}Motivation: the need for a privacy-preserving framework}{2}%
 \contentsline {subsection}{\numberline {1.2.1}Privacy threats of IoT devices}{2}%
 \contentsline {subsection}{\numberline {1.2.2}Challenges}{2}%
 \contentsline {section}{\numberline {1.3}Overview of approach}{3}%
