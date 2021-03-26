@@ -46,11 +46,4 @@ In answer to the above questions and challenges, this Master's thesis proposes a
 
 Besides, we conduct a case study that considers a specific type of home IoT device, namely an Internet-enabled video doorbell. The specific system includes a number of interesting features that may be challenging in privacy-preserving settings, which include but not limited to face and motion detection, video and audio communications and push notifications. We tackle the challenges and implement a feasible system based on our proposed design.
 
-\section{Background on Tor}
-\label{sec:torbackground}
-The Tor network, which was developed in the 1990s and deployed in 2002, is an overlay protocol to route traffic through multiple servers and encrypt it each step of the way (\cite{torproject}, \cite{chaabane2010digging}). By directing internet traffic through the onion network, which consists of several thousand volunteer overlays, Tor conceals users' locations and usage from adversaries.
-
-Tor allows the creation of \textit{Hidden Services}, which conceal the network locations of Internet services. Such services are only reachable within the onion network by users running the Tor client. Hidden services are identified by \textit{.onion} addresses.
-
-Several features of Tor make it attractive for privacy-preserving IoT communications. Because the nature of Tor requires all peers to be connected, Tor maintains the connections after they are initiated to build the circuits. As a side-effect, all peers can receive data regardless of whether they are behind a firewall or NAT. These features, including providing NAT piercing and prevention of DoS attacks, are essential for home IoT devices (as home IoT devices are usually located in typical home networks, which tend to be behind NAT). Furthermore, the system of Tor is actively maintained and researched. Thus, it is likely that this system's flaws and vulnerabilities can be fixed in a reasonable time. 
 

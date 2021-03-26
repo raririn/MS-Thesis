@@ -10,20 +10,20 @@
 \contentsline {subsection}{\numberline {1.2.2}Challenges}{2}%
 \contentsline {section}{\numberline {1.3}Overview of approach}{3}%
 \contentsline {section}{\numberline {1.4}Scientific questions and contributions}{4}%
-\contentsline {section}{\numberline {1.5}Background on Tor}{4}%
-\contentsline {chapter}{\numberline {2}Related work}{6}%
-\contentsline {section}{\numberline {2.1}IoT security}{6}%
-\contentsline {section}{\numberline {2.2}Anonymity and IoT}{7}%
+\contentsline {chapter}{\numberline {2}Related work}{5}%
+\contentsline {section}{\numberline {2.1}IoT security}{5}%
+\contentsline {section}{\numberline {2.2}Anonymity and IoT}{6}%
+\contentsline {section}{\numberline {2.3}Background on Tor}{7}%
 \contentsline {chapter}{\numberline {3}A privacy-preserving framework for IoT devices}{9}%
 \contentsline {section}{\numberline {3.1}Communication models}{9}%
 \contentsline {section}{\numberline {3.2}Threat model}{9}%
 \contentsline {subsection}{\numberline {3.2.1}Actors and capabilities}{10}%
-\contentsline {subsection}{\numberline {3.2.2}Security Guarantees}{11}%
-\contentsline {section}{\numberline {3.3}Feature}{11}%
+\contentsline {subsection}{\numberline {3.2.2}Security and Privacy Guarantees}{11}%
+\contentsline {section}{\numberline {3.3}Features}{11}%
 \contentsline {section}{\numberline {3.4}Constructing a Privacy-Preserving Framework for IoT Devices.}{12}%
 \contentsline {paragraph}{Achieving strong authentication and end-to-end confidentiality.}{12}%
 \contentsline {paragraph}{Resistance to traffic analysis.}{13}%
-\contentsline {paragraph}{Attack resistance.}{13}%
+\contentsline {paragraph}{Attack resistance.}{14}%
 \contentsline {paragraph}{Resistance to enumeration.}{14}%
 \contentsline {chapter}{\numberline {4}Case-study: A privacy-Preserving Video Doorbell}{15}%
 \contentsline {section}{\numberline {4.1}System design}{15}%
