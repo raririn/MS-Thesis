@@ -20,39 +20,43 @@
 \contentsline {subsection}{\numberline {3.2.1}Actors and capabilities}{10}%
 \contentsline {subsection}{\numberline {3.2.2}Security Guarantees}{11}%
 \contentsline {section}{\numberline {3.3}Feature}{11}%
-\contentsline {section}{\numberline {3.4}Methodology}{12}%
-\contentsline {chapter}{\numberline {4}Case-study: A privacy-Preserving Video Doorbell}{14}%
-\contentsline {section}{\numberline {4.1}System design}{14}%
-\contentsline {subsection}{\numberline {4.1.1}Use case analysis}{14}%
-\contentsline {subsection}{\numberline {4.1.2}Network architecture}{16}%
-\contentsline {subsection}{\numberline {4.1.3}Flow structure}{16}%
-\contentsline {section}{\numberline {4.2}Specs of the devices}{19}%
-\contentsline {section}{\numberline {4.3}Face detection}{19}%
-\contentsline {section}{\numberline {4.4}Push notification}{19}%
-\contentsline {section}{\numberline {4.5}Video streaming}{20}%
-\contentsline {section}{\numberline {4.6}Android App}{21}%
-\contentsline {subsection}{\numberline {4.6.1}Registration}{21}%
-\contentsline {subsection}{\numberline {4.6.2}Media player}{22}%
-\contentsline {subsection}{\numberline {4.6.3}Management}{22}%
-\contentsline {section}{\numberline {4.7}Experimental study}{23}%
-\contentsline {subsection}{\numberline {4.7.1}Streaming latency}{23}%
-\contentsline {subsection}{\numberline {4.7.2}Energy consumption}{24}%
-\contentsline {subsection}{\numberline {4.7.3}Bandwidth}{27}%
-\contentsline {subsection}{\numberline {4.7.4}Video and audio quality}{27}%
-\contentsline {subsection}{\numberline {4.7.5}Notification latency}{27}%
-\contentsline {subsection}{\numberline {4.7.6}The cost of using Tor}{27}%
-\contentsline {paragraph}{Streaming latency}{27}%
-\contentsline {paragraph}{Notification latency}{29}%
-\contentsline {chapter}{\numberline {5}Discussion and Open Questions}{30}%
-\contentsline {section}{\numberline {5.1}Traffic cover}{30}%
-\contentsline {section}{\numberline {5.2}Decentralized push notification}{30}%
-\contentsline {section}{\numberline {5.3}Storage}{31}%
-\contentsline {section}{\numberline {5.4}IoT devices in untrusted network}{32}%
-\contentsline {section}{\numberline {5.5}IoT-to-IoT communication}{33}%
-\contentsline {chapter}{\numberline {6}Conclusion}{34}%
+\contentsline {section}{\numberline {3.4}Constructing a Privacy-Preserving Framework for IoT Devices.}{12}%
+\contentsline {paragraph}{Achieving strong authentication and end-to-end confidentiality.}{12}%
+\contentsline {paragraph}{Resistance to traffic analysis.}{13}%
+\contentsline {paragraph}{Attack resistance.}{13}%
+\contentsline {paragraph}{Resistance to enumeration.}{14}%
+\contentsline {chapter}{\numberline {4}Case-study: A privacy-Preserving Video Doorbell}{15}%
+\contentsline {section}{\numberline {4.1}System design}{15}%
+\contentsline {subsection}{\numberline {4.1.1}Use case analysis}{15}%
+\contentsline {subsection}{\numberline {4.1.2}Network architecture}{17}%
+\contentsline {subsection}{\numberline {4.1.3}Flow structure}{17}%
+\contentsline {section}{\numberline {4.2}Specs of the devices}{20}%
+\contentsline {section}{\numberline {4.3}Face detection}{20}%
+\contentsline {section}{\numberline {4.4}Push notification}{20}%
+\contentsline {section}{\numberline {4.5}Video streaming}{21}%
+\contentsline {section}{\numberline {4.6}Android App}{22}%
+\contentsline {subsection}{\numberline {4.6.1}Registration}{22}%
+\contentsline {subsection}{\numberline {4.6.2}Media player}{23}%
+\contentsline {subsection}{\numberline {4.6.3}Management}{23}%
+\contentsline {section}{\numberline {4.7}Experimental study}{24}%
+\contentsline {subsection}{\numberline {4.7.1}Streaming latency}{24}%
+\contentsline {subsection}{\numberline {4.7.2}Energy consumption}{25}%
+\contentsline {subsection}{\numberline {4.7.3}Bandwidth}{28}%
+\contentsline {subsection}{\numberline {4.7.4}Video and audio quality}{28}%
+\contentsline {subsection}{\numberline {4.7.5}Notification latency}{28}%
+\contentsline {subsection}{\numberline {4.7.6}The cost of using Tor}{28}%
+\contentsline {paragraph}{Streaming latency}{28}%
+\contentsline {paragraph}{Notification latency}{30}%
+\contentsline {chapter}{\numberline {5}Discussion and Open Questions}{31}%
+\contentsline {section}{\numberline {5.1}Traffic cover}{31}%
+\contentsline {section}{\numberline {5.2}Decentralized push notification}{31}%
+\contentsline {section}{\numberline {5.3}Storage}{32}%
+\contentsline {section}{\numberline {5.4}IoT devices in untrusted network}{33}%
+\contentsline {section}{\numberline {5.5}IoT-to-IoT communication}{34}%
+\contentsline {chapter}{\numberline {6}Conclusion}{35}%
 \par \vspace {6\p@ }
 \noindent {\sc Appendix}
 \vspace {-3\p@ }
-\contentsline {chapter}{\numberline {A}First Appendix}{35}%
-\contentsline {chapter}{\numberline {B}Second Appendix}{36}%
-\contentsline {pseudochapter}{\sc Bibliography}{37}%
+\contentsline {chapter}{\numberline {A}First Appendix}{36}%
+\contentsline {chapter}{\numberline {B}Second Appendix}{37}%
+\contentsline {pseudochapter}{\sc Bibliography}{38}%

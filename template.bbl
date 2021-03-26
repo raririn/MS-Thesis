@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{20}
+\begin{thebibliography}{23}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -228,6 +228,16 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Matherly}{Matherly}{2015}]%
+        {matherly2015complete}
+\bibfield{author}{\bibinfo{person}{John Matherly}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Complete guide to Shodan}.
+\newblock \bibinfo{journal}{\emph{Shodan, LLC (2016-02-25)}}
+  \bibinfo{volume}{1} (\bibinfo{year}{2015}).
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Paganelli and Parlanti}{Paganelli and
   Parlanti}{2012}]%
         {paganelli2012dht}
@@ -237,6 +247,17 @@
   Things}.
 \newblock \bibinfo{journal}{\emph{Journal of Computer Networks and
   Communications}}  \bibinfo{volume}{2012} (\bibinfo{year}{2012}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Shahbar and Zincir-Heywood}{Shahbar and
+  Zincir-Heywood}{2015}]%
+        {shahbar2015traffic}
+\bibfield{author}{\bibinfo{person}{Khalid Shahbar} {and} \bibinfo{person}{A~Nur
+  Zincir-Heywood}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Traffic flow analysis of tor pluggable transports}.
+  In \bibinfo{booktitle}{\emph{2015 11th International Conference on Network
+  and Service Management (CNSM)}}. IEEE, \bibinfo{pages}{178--181}.
 \newblock
 
 
@@ -289,6 +310,19 @@
 \newblock \showarticletitle{Octopus: A secure and anonymous DHT lookup}. In
   \bibinfo{booktitle}{\emph{2012 IEEE 32nd International Conference on
   Distributed Computing Systems}}. IEEE, \bibinfo{pages}{325--334}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Winter, Edmundson, Roberts, Dutkowska-{\.Z}uk,
+  Chetty, and Feamster}{Winter et~al\mbox{.}}{2018}]%
+        {winter2018tor}
+\bibfield{author}{\bibinfo{person}{Philipp Winter}, \bibinfo{person}{Anne
+  Edmundson}, \bibinfo{person}{Laura~M Roberts}, \bibinfo{person}{Agnieszka
+  Dutkowska-{\.Z}uk}, \bibinfo{person}{Marshini Chetty}, {and}
+  \bibinfo{person}{Nick Feamster}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{How do Tor users interact with onion services?}. In
+  \bibinfo{booktitle}{\emph{27th $\{$USENIX$\}$ Security Symposium
+  ($\{$USENIX$\}$ Security 18)}}. \bibinfo{pages}{411--428}.
 \newblock
 
 

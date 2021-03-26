@@ -5,6 +5,10 @@ The style file: bibs/ACM-Reference-Format.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: bibs/bibs.bib
+Repeated entry---line 405 of file bibs/bibs.bib
+ : @inproceedings{chaabane2010digging
+ :                                   ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "fig:notificationlatency_wTor"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--no key, author in torproject
@@ -51,52 +55,57 @@ Warning--empty publisher in juarez2016toward
 Warning--empty address in juarez2016toward
 Warning--empty publisher in kollmann2017cost
 Warning--empty address in kollmann2017cost
+Warning--page numbers missing in both pages and numpages fields in matherly2015complete
 Warning--page numbers missing in both pages and numpages fields in paganelli2012dht
+Warning--empty publisher in shahbar2015traffic
+Warning--empty address in shahbar2015traffic
 Warning--empty publisher in sharifara2014general
 Warning--empty address in sharifara2014general
 Warning--no number and no volume in shumailov2019hearing
 Warning--page numbers missing in both pages and numpages fields in shumailov2019hearing
 Warning--empty publisher in wang2012octopus
 Warning--empty address in wang2012octopus
-You've used 20 entries,
+Warning--empty publisher in winter2018tor
+Warning--empty address in winter2018tor
+You've used 23 entries,
             5719 wiz_defined-function locations,
-            1398 strings with 18620 characters,
-and the built_in function-call counts, 24594 in all, are:
-= -- 2854
-> -- 998
+            1412 strings with 19156 characters,
+and the built_in function-call counts, 28266 in all, are:
+= -- 3296
+> -- 1130
 < -- 0
-+ -- 352
-- -- 336
-* -- 1824
-:= -- 2506
-add.period$ -- 99
-call.type$ -- 20
-change.case$ -- 154
-chr.to.int$ -- 20
-cite$ -- 75
-duplicate$ -- 2155
-empty$ -- 1512
-format.name$ -- 408
-if$ -- 5865
++ -- 395
+- -- 384
+* -- 2073
+:= -- 2876
+add.period$ -- 114
+call.type$ -- 23
+change.case$ -- 175
+chr.to.int$ -- 23
+cite$ -- 83
+duplicate$ -- 2493
+empty$ -- 1747
+format.name$ -- 464
+if$ -- 6752
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 79
-newline$ -- 197
-num.names$ -- 144
-pop$ -- 939
+missing$ -- 93
+newline$ -- 219
+num.names$ -- 168
+pop$ -- 1078
 preamble$ -- 1
-purify$ -- 321
+purify$ -- 369
 quote$ -- 0
-skip$ -- 756
+skip$ -- 876
 stack$ -- 0
-substring$ -- 1692
-swap$ -- 213
+substring$ -- 1958
+swap$ -- 246
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 516
-warning$ -- 47
-while$ -- 131
+type$ -- 592
+warning$ -- 52
+while$ -- 157
 width$ -- 0
-write$ -- 377
-(There were 48 warnings)
+write$ -- 426
+(There was 1 error message)
