@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{23}
+\begin{thebibliography}{24}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -310,6 +310,17 @@
 \newblock \showarticletitle{Octopus: A secure and anonymous DHT lookup}. In
   \bibinfo{booktitle}{\emph{2012 IEEE 32nd International Conference on
   Distributed Computing Systems}}. IEEE, \bibinfo{pages}{325--334}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wiemer}{Wiemer}{2001}]%
+        {wiemer2001software}
+\bibfield{author}{\bibinfo{person}{Stefan Wiemer}.}
+  \bibinfo{year}{2001}\natexlab{}.
+\newblock \showarticletitle{A software package to analyze seismicity: ZMAP}.
+\newblock \bibinfo{journal}{\emph{Seismological Research Letters}}
+  \bibinfo{volume}{72}, \bibinfo{number}{3} (\bibinfo{year}{2001}),
+  \bibinfo{pages}{373--382}.
 \newblock
 
 

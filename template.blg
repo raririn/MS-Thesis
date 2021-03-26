@@ -67,45 +67,45 @@ Warning--empty publisher in wang2012octopus
 Warning--empty address in wang2012octopus
 Warning--empty publisher in winter2018tor
 Warning--empty address in winter2018tor
-You've used 23 entries,
+You've used 24 entries,
             5719 wiz_defined-function locations,
-            1412 strings with 19156 characters,
-and the built_in function-call counts, 28266 in all, are:
-= -- 3296
-> -- 1130
+            1420 strings with 19310 characters,
+and the built_in function-call counts, 29450 in all, are:
+= -- 3493
+> -- 1150
 < -- 0
-+ -- 395
-- -- 384
-* -- 2073
-:= -- 2876
-add.period$ -- 114
-call.type$ -- 23
-change.case$ -- 175
-chr.to.int$ -- 23
-cite$ -- 83
-duplicate$ -- 2493
-empty$ -- 1747
-format.name$ -- 464
-if$ -- 6752
++ -- 402
+- -- 392
+* -- 2137
+:= -- 2979
+add.period$ -- 119
+call.type$ -- 24
+change.case$ -- 180
+chr.to.int$ -- 24
+cite$ -- 84
+duplicate$ -- 2599
+empty$ -- 1822
+format.name$ -- 472
+if$ -- 7069
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 93
-newline$ -- 219
-num.names$ -- 168
-pop$ -- 1078
+missing$ -- 97
+newline$ -- 227
+num.names$ -- 176
+pop$ -- 1110
 preamble$ -- 1
-purify$ -- 369
+purify$ -- 383
 quote$ -- 0
-skip$ -- 876
+skip$ -- 911
 stack$ -- 0
-substring$ -- 1958
-swap$ -- 246
+substring$ -- 2066
+swap$ -- 259
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 592
+type$ -- 608
 warning$ -- 52
-while$ -- 157
+while$ -- 168
 width$ -- 0
-write$ -- 426
+write$ -- 443
 (There was 1 error message)
