@@ -30,4 +30,12 @@ The Tor network, which was developed in the 1990s and deployed in 2002, is an ov
 
 Tor allows the creation of \textit{Hidden Services}, which conceal the network locations of Internet services. Such services are only reachable within the onion network by users running the Tor client. Hidden services are identified by \textit{.onion} addresses.
 
-Several features of Tor make it attractive for privacy-preserving IoT communications. Because the nature of Tor requires all peers to be connected, Tor maintains the connections after they are initiated to build the circuits. As a side-effect, all peers can receive data regardless of whether they are behind a firewall or NAT. These features, including providing NAT piercing and prevention of DoS attacks, are essential for home IoT devices (as home IoT devices are usually located in typical home networks, which tend to be behind NAT). Furthermore, the system of Tor is actively maintained and improved
+Several features of Tor make it attractive for privacy-preserving IoT communications. Because the nature of Tor requires all peers to be connected, Tor maintains the connections after they are initiated to build the circuits. As a side-effect, all peers can receive data regardless of whether they are behind a firewall or NAT. \textit{Fig. \ref{fig:natpiercing}} shows the network structure of a IoT system adopting the onion network. In such a system, both the IoT device and the end-user device keeps an outgoing TCP connection with onion relays, and thus does not require a static IP address.
+
+These features, including providing NAT piercing and prevention of DoS attacks, are essential for home IoT devices (as home IoT devices are usually located in typical home networks, which tend to be behind NAT). Furthermore, the system of Tor is actively maintained and improved.
+
+\begin{figure}
+	\includegraphics[width=\linewidth]{natpiercing.pdf}
+	\caption{}
+	\label{fig:natpiercing}
+\end{figure}

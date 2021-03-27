@@ -11,6 +11,9 @@
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
 \newlabel{fig:centralized}{{1.1}{2}}
 \citation{antonakakis2017understanding}
+\citation{2006mirai}
+\citation{2017fda}
+\citation{2019ring}
 \citation{acar2016sok}
 \citation{hilt2019internet}
 \citation{shumailov2019hearing}
@@ -35,6 +38,8 @@
 \citation{chaabane2010digging}
 \@writefile{toc}{\contentsline {section}{\numberline {2.3}Background on Tor}{8}\protected@file@percent }
 \newlabel{sec:torbackground}{{2.3}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces \relax }}{9}\protected@file@percent }
+\newlabel{fig:natpiercing}{{2.1}{9}}
 \citation{antonakakis2017understanding}
 \citation{wiemer2001software}
 \@writefile{toc}{\contentsline {chapter}{\numberline {3}A privacy-preserving framework for IoT devices}{10}\protected@file@percent }
@@ -54,62 +59,64 @@
 \@writefile{toc}{\contentsline {paragraph}{Attack resistance.}{15}\protected@file@percent }
 \@writefile{toc}{\contentsline {paragraph}{Resistance to enumeration.}{15}\protected@file@percent }
 \@writefile{toc}{\contentsline {chapter}{\numberline {4}Case-study: A privacy-Preserving Video Doorbell}{16}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}System design}{16}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.1}Use case analysis}{16}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Features and system design}{16}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.1}Features}{16}\protected@file@percent }
 \citation{snowflake}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces \relax }}{17}\protected@file@percent }
-\newlabel{fig:usecase}{{4.1}{17}}
+\citation{macmillan2020evaluating}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.2}Network architecture}{17}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces \relax }}{18}\protected@file@percent }
+\newlabel{fig:usecase}{{4.1}{18}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces \relax }}{18}\protected@file@percent }
 \newlabel{fig:architecture}{{4.2}{18}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.2}Network architecture}{18}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.3}Flow structure}{18}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces \relax }}{19}\protected@file@percent }
-\newlabel{fig:pushnotification}{{4.3}{19}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces \relax }}{20}\protected@file@percent }
-\newlabel{fig:playvideo}{{4.4}{20}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces \relax }}{20}\protected@file@percent }
-\newlabel{fig:push}{{4.5}{20}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.3}Operation}{19}\protected@file@percent }
+\citation{viola2001rapid}
 \citation{sharifara2014general}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Specs of the devices}{21}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}Face detection}{21}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.4}Push notification}{21}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.5}Video streaming}{22}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces \relax }}{23}\protected@file@percent }
-\newlabel{fig:url}{{4.6}{23}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.6}Android App}{23}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.6.1}Registration}{23}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces \relax }}{24}\protected@file@percent }
-\newlabel{fig:app_sc_main}{{4.7}{24}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces \relax }}{24}\protected@file@percent }
-\newlabel{fig:app_sc_management}{{4.8}{24}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces \relax }}{24}\protected@file@percent }
-\newlabel{fig:app_sc_token_revoke}{{4.9}{24}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces \relax }}{20}\protected@file@percent }
+\newlabel{fig:playvideo}{{4.3}{20}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Face detection}{20}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces \relax }}{21}\protected@file@percent }
+\newlabel{fig:push}{{4.4}{21}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Device specifications}{21}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}Push notification}{22}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.5}Video streaming}{23}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces \relax }}{24}\protected@file@percent }
+\newlabel{fig:url}{{4.5}{24}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.6}Android App}{24}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6.1}Registration}{24}\protected@file@percent }
+\newlabel{sec:registration}{{4.6.1}{24}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.6.2}Media player}{24}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.6.3}Management}{24}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces \relax }}{25}\protected@file@percent }
+\newlabel{fig:app_sc_main}{{4.6}{25}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces \relax }}{25}\protected@file@percent }
+\newlabel{fig:app_sc_management}{{4.7}{25}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces \relax }}{25}\protected@file@percent }
+\newlabel{fig:app_sc_token_revoke}{{4.8}{25}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6.3}Management}{25}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {4.7}Experimental study}{25}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.1}Streaming latency}{25}\protected@file@percent }
-\newlabel{subsec:streaming_latency}{{4.7.1}{25}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.2}Energy consumption}{26}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces \relax }}{27}\protected@file@percent }
-\newlabel{fig:timeconsumption}{{4.10}{27}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.11}{\ignorespaces \relax }}{28}\protected@file@percent }
-\newlabel{fig:timepercentage}{{4.11}{28}}
-\citation{fig:notificationlatency_wTor}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.1}Streaming latency}{26}\protected@file@percent }
+\newlabel{subsec:streaming_latency}{{4.7.1}{26}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces \relax }}{27}\protected@file@percent }
+\newlabel{fig:timeconsumption}{{4.9}{27}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces \relax }}{28}\protected@file@percent }
+\newlabel{fig:timepercentage}{{4.10}{28}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.2}Energy consumption}{29}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.7.3}Bandwidth}{29}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.7.4}Video and audio quality}{29}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.7.5}Notification latency}{29}\protected@file@percent }
 \newlabel{subsec:notification_latency}{{4.7.5}{29}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.6}The cost of using Tor}{29}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{Streaming latency}{29}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4.12}{\ignorespaces \relax }}{30}\protected@file@percent }
-\newlabel{fig:notificationlatency_wTor}{{4.12}{30}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.13}{\ignorespaces \relax }}{31}\protected@file@percent }
-\newlabel{fig:notificationlatency_wTor_vs_vanilla}{{4.13}{31}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.11}{\ignorespaces \relax }}{30}\protected@file@percent }
+\newlabel{fig:notificationlatency_wTor}{{4.11}{30}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.6}The cost of using Tor}{30}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Streaming latency}{30}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.12}{\ignorespaces \relax }}{31}\protected@file@percent }
+\newlabel{fig:notificationlatency_wTor_vs_vanilla}{{4.12}{31}}
 \@writefile{toc}{\contentsline {paragraph}{Notification latency}{31}\protected@file@percent }
 \citation{juarez2016toward}
 \@writefile{toc}{\contentsline {chapter}{\numberline {5}Discussion and Open Questions}{32}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {5.1}Traffic cover}{32}\protected@file@percent }
+\newlabel{sec:traffic_cover}{{5.1}{32}}
 \@writefile{toc}{\contentsline {section}{\numberline {5.2}Decentralized push notification}{32}\protected@file@percent }
+\newlabel{sec:decentralized_push}{{5.2}{32}}
 \citation{kollmann2017cost}
 \@writefile{toc}{\contentsline {section}{\numberline {5.3}Storage}{33}\protected@file@percent }
 \citation{fabian2014privacy}
@@ -141,12 +148,17 @@
 \bibcite{hoang2015tor}{{13}{2015}{{Hoang and Pishva}}{{Hoang and Pishva}}}
 \bibcite{juarez2016toward}{{14}{2016}{{Juarez et~al\mbox  {.}}}{{Juarez, Imani, Perry, Diaz, and Wright}}}
 \bibcite{kollmann2017cost}{{15}{2017}{{Kollmann and Beresford}}{{Kollmann and Beresford}}}
-\bibcite{matherly2015complete}{{16}{2015}{{Matherly}}{{Matherly}}}
-\bibcite{paganelli2012dht}{{17}{2012}{{Paganelli and Parlanti}}{{Paganelli and Parlanti}}}
-\bibcite{shahbar2015traffic}{{18}{2015}{{Shahbar and Zincir-Heywood}}{{Shahbar and Zincir-Heywood}}}
-\bibcite{sharifara2014general}{{19}{2014}{{Sharifara et~al\mbox  {.}}}{{Sharifara, Rahim, and Anisi}}}
-\bibcite{shumailov2019hearing}{{20}{2019}{{Shumailov et~al\mbox  {.}}}{{Shumailov, Simon, Yan, and Anderson}}}
-\bibcite{song2017privacy}{{21}{2017}{{Song et~al\mbox  {.}}}{{Song, Li, Mei, Yu, Xing, and Cheng}}}
-\bibcite{wang2012octopus}{{22}{2012}{{Wang and Borisov}}{{Wang and Borisov}}}
-\bibcite{wiemer2001software}{{23}{2001}{{Wiemer}}{{Wiemer}}}
-\bibcite{winter2018tor}{{24}{2018}{{Winter et~al\mbox  {.}}}{{Winter, Edmundson, Roberts, Dutkowska-{\.Z}uk, Chetty, and Feamster}}}
+\bibcite{2017fda}{{16}{2017}{{Larson}}{{Larson}}}
+\bibcite{macmillan2020evaluating}{{17}{2020}{{MacMillan et~al\mbox  {.}}}{{MacMillan, Holland, and Mittal}}}
+\bibcite{matherly2015complete}{{18}{2015}{{Matherly}}{{Matherly}}}
+\bibcite{paganelli2012dht}{{19}{2012}{{Paganelli and Parlanti}}{{Paganelli and Parlanti}}}
+\bibcite{2019ring}{{20}{2019}{{Paul}}{{Paul}}}
+\bibcite{shahbar2015traffic}{{21}{2015}{{Shahbar and Zincir-Heywood}}{{Shahbar and Zincir-Heywood}}}
+\bibcite{sharifara2014general}{{22}{2014}{{Sharifara et~al\mbox  {.}}}{{Sharifara, Rahim, and Anisi}}}
+\bibcite{shumailov2019hearing}{{23}{2019}{{Shumailov et~al\mbox  {.}}}{{Shumailov, Simon, Yan, and Anderson}}}
+\bibcite{song2017privacy}{{24}{2017}{{Song et~al\mbox  {.}}}{{Song, Li, Mei, Yu, Xing, and Cheng}}}
+\bibcite{viola2001rapid}{{25}{2001}{{Viola and Jones}}{{Viola and Jones}}}
+\bibcite{wang2012octopus}{{26}{2012}{{Wang and Borisov}}{{Wang and Borisov}}}
+\bibcite{wiemer2001software}{{27}{2001}{{Wiemer}}{{Wiemer}}}
+\bibcite{winter2018tor}{{28}{2018}{{Winter et~al\mbox  {.}}}{{Winter, Edmundson, Roberts, Dutkowska-{\.Z}uk, Chetty, and Feamster}}}
+\bibcite{2006mirai}{{29}{2016}{{Woolf}}{{Woolf}}}

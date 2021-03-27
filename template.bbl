@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{24}
+\begin{thebibliography}{29}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -228,6 +228,33 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Larson}{Larson}{2017}]%
+        {2017fda}
+\bibfield{author}{\bibinfo{person}{Selena Larson}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \bibinfo{title}{FDA confirms that St. Jude's cardiac devices can be
+  hacked}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://money.cnn.com/2017/01/09/technology/fda-st-jude-cardiac-hack/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{MacMillan, Holland, and Mittal}{MacMillan
+  et~al\mbox{.}}{2020}]%
+        {macmillan2020evaluating}
+\bibfield{author}{\bibinfo{person}{Kyle MacMillan}, \bibinfo{person}{Jordan
+  Holland}, {and} \bibinfo{person}{Prateek Mittal}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Evaluating Snowflake as an Indistinguishable
+  Censorship Circumvention Tool}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2008.03254}}
+  (\bibinfo{year}{2020}).
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Matherly}{Matherly}{2015}]%
         {matherly2015complete}
 \bibfield{author}{\bibinfo{person}{John Matherly}.}
@@ -248,6 +275,20 @@
 \newblock \bibinfo{journal}{\emph{Journal of Computer Networks and
   Communications}}  \bibinfo{volume}{2012} (\bibinfo{year}{2012}).
 \newblock
+
+
+\bibitem[\protect\citeauthoryear{Paul}{Paul}{2019}]%
+        {2019ring}
+\bibfield{author}{\bibinfo{person}{Kari Paul}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{title}{Dozens sue Amazon's Ring after camera hack leads to
+  threats and racial slurs}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.theguardian.com/technology/2020/dec/23/amazon-ring-camera-hack-lawsuit-threats}
+\showURL{%
+\tempurl}
 
 
 \bibitem[\protect\citeauthoryear{Shahbar and Zincir-Heywood}{Shahbar and
@@ -303,6 +344,17 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Viola and Jones}{Viola and Jones}{2001}]%
+        {viola2001rapid}
+\bibfield{author}{\bibinfo{person}{Paul Viola} {and} \bibinfo{person}{Michael
+  Jones}.} \bibinfo{year}{2001}\natexlab{}.
+\newblock \showarticletitle{Rapid object detection using a boosted cascade of
+  simple features}. In \bibinfo{booktitle}{\emph{Proceedings of the 2001 IEEE
+  computer society conference on computer vision and pattern recognition. CVPR
+  2001}}, Vol.~\bibinfo{volume}{1}. IEEE, \bibinfo{pages}{I--I}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Wang and Borisov}{Wang and Borisov}{2012}]%
         {wang2012octopus}
 \bibfield{author}{\bibinfo{person}{Qiyan Wang} {and} \bibinfo{person}{Nikita
@@ -335,6 +387,20 @@
   \bibinfo{booktitle}{\emph{27th $\{$USENIX$\}$ Security Symposium
   ($\{$USENIX$\}$ Security 18)}}. \bibinfo{pages}{411--428}.
 \newblock
+
+
+\bibitem[\protect\citeauthoryear{Woolf}{Woolf}{2016}]%
+        {2006mirai}
+\bibfield{author}{\bibinfo{person}{Nicky Woolf}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \bibinfo{title}{DDoS attack that disrupted internet was largest of
+  its kind in history, experts say}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.theguardian.com/technology/2016/oct/26/ddos-attack-dyn-mirai-botnet}
+\showURL{%
+\tempurl}
 
 
 \end{thebibliography}

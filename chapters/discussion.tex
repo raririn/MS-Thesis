@@ -1,11 +1,13 @@
 \chapter{Discussion and Open Questions}
 
 \section{Traffic cover}
+\label{sec:traffic_cover}
 In the case study, we covered the traffic of push notifications by padding dummy packets and sending packets constantly (every 5 second). While constant padding is supposed to be a safe countermeasure against traffic analysis, the scheme may consume much more power than necessary since the interval of people visiting is usually far larger than 5 seconds. 
 
 There have been researches discussing about efficient ways of padding traffic. For example, Juarez \textit{et al.} \cite{juarez2016toward} proposed an adaptive padding algorithm and proved its effectiveness against traffic analysis. We consider it possible to adapt a similar algorithm in our system as a possible future enhancement.
 
 \section{Decentralized push notification}
+\label{sec:decentralized_push}
 Ideally, our system would like to avoid any point of centralization and so does the push notification part. However, it is very hard to achieve fully decentralization in modern mobile systems. It is nearly impossible to push a notification with out using \textit{APNS (Apple Push Notification Service)} on an iOS device. It is somehow more realistic on Android devices as Google permits the use of third-party push notification services. Unfortunately, most push notification services are designed to be 1-to-many systems (that is, one app developer pushes to many user devices), which makes it a bit difficult for private IoT devices to utilize such service.
 
 In the case study, we used Firebase Cloud Messaging (formerly known as Google Cloud Messaging) as the push notification service provider. FCM is also designed as 1-to-many, and requires credentials for message senders. Therefore, in order to get a private channel for their own message, the users will have to register their own API key, include the key and compile the APK themselves. We consider the inconvenience a shortcoming of our system.

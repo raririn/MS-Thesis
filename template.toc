@@ -26,26 +26,26 @@
 \contentsline {paragraph}{Attack resistance.}{15}%
 \contentsline {paragraph}{Resistance to enumeration.}{15}%
 \contentsline {chapter}{\numberline {4}Case-study: A privacy-Preserving Video Doorbell}{16}%
-\contentsline {section}{\numberline {4.1}System design}{16}%
-\contentsline {subsection}{\numberline {4.1.1}Use case analysis}{16}%
-\contentsline {subsection}{\numberline {4.1.2}Network architecture}{18}%
-\contentsline {subsection}{\numberline {4.1.3}Flow structure}{18}%
-\contentsline {section}{\numberline {4.2}Specs of the devices}{21}%
-\contentsline {section}{\numberline {4.3}Face detection}{21}%
-\contentsline {section}{\numberline {4.4}Push notification}{21}%
-\contentsline {section}{\numberline {4.5}Video streaming}{22}%
-\contentsline {section}{\numberline {4.6}Android App}{23}%
-\contentsline {subsection}{\numberline {4.6.1}Registration}{23}%
+\contentsline {section}{\numberline {4.1}Features and system design}{16}%
+\contentsline {subsection}{\numberline {4.1.1}Features}{16}%
+\contentsline {subsection}{\numberline {4.1.2}Network architecture}{17}%
+\contentsline {subsection}{\numberline {4.1.3}Operation}{19}%
+\contentsline {section}{\numberline {4.2}Face detection}{20}%
+\contentsline {section}{\numberline {4.3}Device specifications}{21}%
+\contentsline {section}{\numberline {4.4}Push notification}{22}%
+\contentsline {section}{\numberline {4.5}Video streaming}{23}%
+\contentsline {section}{\numberline {4.6}Android App}{24}%
+\contentsline {subsection}{\numberline {4.6.1}Registration}{24}%
 \contentsline {subsection}{\numberline {4.6.2}Media player}{24}%
-\contentsline {subsection}{\numberline {4.6.3}Management}{24}%
+\contentsline {subsection}{\numberline {4.6.3}Management}{25}%
 \contentsline {section}{\numberline {4.7}Experimental study}{25}%
-\contentsline {subsection}{\numberline {4.7.1}Streaming latency}{25}%
-\contentsline {subsection}{\numberline {4.7.2}Energy consumption}{26}%
+\contentsline {subsection}{\numberline {4.7.1}Streaming latency}{26}%
+\contentsline {subsection}{\numberline {4.7.2}Energy consumption}{29}%
 \contentsline {subsection}{\numberline {4.7.3}Bandwidth}{29}%
 \contentsline {subsection}{\numberline {4.7.4}Video and audio quality}{29}%
 \contentsline {subsection}{\numberline {4.7.5}Notification latency}{29}%
-\contentsline {subsection}{\numberline {4.7.6}The cost of using Tor}{29}%
-\contentsline {paragraph}{Streaming latency}{29}%
+\contentsline {subsection}{\numberline {4.7.6}The cost of using Tor}{30}%
+\contentsline {paragraph}{Streaming latency}{30}%
 \contentsline {paragraph}{Notification latency}{31}%
 \contentsline {chapter}{\numberline {5}Discussion and Open Questions}{32}%
 \contentsline {section}{\numberline {5.1}Traffic cover}{32}%
