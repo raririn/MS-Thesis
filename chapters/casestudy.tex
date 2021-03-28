@@ -112,9 +112,14 @@ For registration, the client sends JSON-formatted data in an HTTP POST request t
 \textit{Fig. \ref{fig:app_sc_main}} shows the main (registration) GUI of the app.
 
 
-\subsection{Media player} The app has the VLC player integrated for video streaming. Working with Orbot, the media player plays the video through the Tor network, which prevents adversaries from eavesdrop into the transmitted video.
+\subsection{Media player} The app has the VLC player integrated for video streaming. Working with Orbot, the media player plays the video through the onion network, which prevents adversaries from eavesdrop into the transmitted video.
 
-\subsection{Management} The client sets up a webpage for the user to manipulate settings, including changing detection threshold, revoking authentications, recording voice, etc. The management page is only accessible in the local network (that saying, the user device must be in the same wireless network with the doorbell device to manipulate settings) and requires a password for access.
+\subsection{Two-way communication}
+The media player streams both video and audio and thus enables the user to hear from visitors. Meanwhile, the user has the option to play pre-recorded voice (which can be managed through the app as well, as described in Section \ref{sec:management} to communicate with visitors. 
+
+\subsection{Management}
+\label{sec:management}
+The client sets up a webpage for the user to manipulate settings, including changing detection threshold, revoking authentications, recording voice, etc. The management page is only accessible in the local network (that saying, the user device must be in the same wireless network with the doorbell device to manipulate settings) and requires a password for access.
 
 \textit{Fig. \ref{fig:app_sc_management}} shows the preference page, and \textit{Fig. \ref{fig:app_sc_token_revoke}} shows the token management (where user can revoke trusted devices) of the app.
 
