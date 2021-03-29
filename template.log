@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.7.14)  29 MAR 2021 15:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.7.14)  29 MAR 2021 15:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -352,14 +352,6 @@ LaTeX Warning: Reference `fig:app_sc_main' on page 26 undefined on input line 1
 13.
 
 [26 <./fig_url.jpg>]
-
-LaTeX Warning: Reference `fig:app_sc_management' on page 27 undefined on input 
-line 125.
-
-
-LaTeX Warning: Reference `fig:app_sc_token_revoke' on page 27 undefined on inpu
-t line 125.
-
 <app_sc_main.png, id=166, 1084.05pt x 2168.1pt>
 File: app_sc_main.png Graphic file (type png)
 <use app_sc_main.png>
@@ -375,32 +367,34 @@ File: app_sc_token_revoke.png Graphic file (type png)
 <use app_sc_token_revoke.png>
 Package pdftex.def Info: app_sc_token_revoke.png  used on input line 135.
 (pdftex.def)             Requested size: 130.08731pt x 260.16078pt.
-[27] [28 <./app_sc_main.png> <./app_sc_management.png> <./app_sc_token_revoke.p
-ng>]
+ [27] [28 <./app_sc_main.png> <./app_sc_management.png> <./app_sc_token_revoke.
+png>]
 <plot1.pdf, id=175, 377.64214pt x 264.6255pt>
 File: plot1.pdf Graphic file (type pdf)
 <use plot1.pdf>
-Package pdftex.def Info: plot1.pdf  used on input line 163.
+Package pdftex.def Info: plot1.pdf  used on input line 164.
 (pdftex.def)             Requested size: 433.62pt x 303.86067pt.
 <plot2.pdf, id=176, 377.64214pt x 249.44379pt>
 File: plot2.pdf Graphic file (type pdf)
 <use plot2.pdf>
-Package pdftex.def Info: plot2.pdf  used on input line 169.
+Package pdftex.def Info: plot2.pdf  used on input line 170.
 (pdftex.def)             Requested size: 433.62pt x 286.42802pt.
  [29] [30 <./plot1.pdf>] [31 <./plot2.pdf>] [32]
 <notification_latency_withTor.pdf, id=260, 433.62pt x 289.08pt>
 File: notification_latency_withTor.pdf Graphic file (type pdf)
 <use notification_latency_withTor.pdf>
-Package pdftex.def Info: notification_latency_withTor.pdf  used on input line 1
-99.
+Package pdftex.def Info: notification_latency_withTor.pdf  used on input line 2
+00.
 (pdftex.def)             Requested size: 433.62pt x 289.09251pt.
- [33 <./notification_latency_withTor.pdf>]
+
+[33 <./notification_latency_withTor.pdf>]
 <plot_push_tor_vs_vanilla.pdf, id=292, 433.62pt x 289.08pt>
 File: plot_push_tor_vs_vanilla.pdf Graphic file (type pdf)
 <use plot_push_tor_vs_vanilla.pdf>
-Package pdftex.def Info: plot_push_tor_vs_vanilla.pdf  used on input line 213.
+Package pdftex.def Info: plot_push_tor_vs_vanilla.pdf  used on input line 214.
 (pdftex.def)             Requested size: 433.62pt x 289.09251pt.
-) (./chapters/discussion.tex [34] [35 <./plot_push_tor_vs_vanilla.pdf>]
+) (./chapters/discussion.tex [34]
+[35 <./plot_push_tor_vs_vanilla.pdf>]
 Chapter 5.
 [36
 
@@ -444,10 +438,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4682 strings out of 480471
- 67584 string characters out of 5903300
- 302810 words of memory out of 5000000
- 20630 multiletter control sequences out of 15000+600000
+ 4681 strings out of 480471
+ 67548 string characters out of 5903300
+ 302831 words of memory out of 5000000
+ 20629 multiletter control sequences out of 15000+600000
  541222 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,7n,47p,1247b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -461,7 +455,7 @@ c/cm-super/sfbx1200.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-super
 pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><d:/te
 xlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb><d:/texlive/2020
 /texmf-dist/fonts/type1/public/cm-super/sfxc1200.pfb>
-Output written on template.pdf (51 pages, 1129727 bytes).
+Output written on template.pdf (51 pages, 1129724 bytes).
 PDF statistics:
  405 PDF objects out of 1000 (max. 8388607)
  196 compressed objects within 2 object streams
