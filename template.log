@@ -404,37 +404,30 @@ Package pdftex.def Info: plot_push_tor_vs_vanilla.pdf  used on input line 213.
 Chapter 5.
 [36
 
-] [37]
-
-Package natbib Warning: Citation `stoica2001chord' on page 38 undefined on inpu
-t line 24.
-
-[38]) (./chapters/conclusion.tex [39]
+] [37] [38]) (./chapters/conclusion.tex [39]
 Chapter 6.
 ) (./template.bbl [40
 
-]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 4
-9.
- (d:/texlive/2020/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-[41
+] [41
 
 ]
-Underfull \hbox (badness 1418) in paragraph at lines 188--194
+Underfull \hbox (badness 1418) in paragraph at lines 176--182
 []\T1/cmr/m/n/12 Jens Hiller, Jan Pen-nekamp, Markus Dahlmanns, Martin Henze, A
 ndriy
  []
 
-[42]
-Underfull \hbox (badness 2922) in paragraph at lines 247--257
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
+19.
+(d:/texlive/2020/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+) [42]
+Underfull \hbox (badness 2922) in paragraph at lines 248--258
 []\T1/cmr/m/n/12 Selena Larson. 2017.  FDA con-firms that St. Jude's car-diac d
 evices
  []
 
 
-Underfull \hbox (badness 3646) in paragraph at lines 247--257
+Underfull \hbox (badness 3646) in paragraph at lines 248--258
 \T1/cmr/m/n/12 can be hacked.    $\T1/cmtt/m/n/12 https : / / money . cnn . com
  / 2017 / 01 / 09 / technology /
  []
@@ -445,22 +438,19 @@ Underfull \hbox (badness 3646) in paragraph at lines 247--257
 *** Because this document has a table of contents,
 *** you must run LaTeX TWICE to get it to print correctly.
 ***
-
-Package natbib Warning: There were undefined citations.
-
 [45] (./template.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4679 strings out of 480471
- 67515 string characters out of 5903300
- 302721 words of memory out of 5000000
- 20627 multiletter control sequences out of 15000+600000
+ 4682 strings out of 480471
+ 67584 string characters out of 5903300
+ 302810 words of memory out of 5000000
+ 20630 multiletter control sequences out of 15000+600000
  541222 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,7n,47p,1247b,374s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,7n,47p,1247b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
 {d:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{d:/texl
 ive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<d:/texlive/2020/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/texlive/2020/texmf-dis
@@ -471,7 +461,7 @@ c/cm-super/sfbx1200.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-super
 pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><d:/te
 xlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb><d:/texlive/2020
 /texmf-dist/fonts/type1/public/cm-super/sfxc1200.pfb>
-Output written on template.pdf (51 pages, 1129503 bytes).
+Output written on template.pdf (51 pages, 1129727 bytes).
 PDF statistics:
  405 PDF objects out of 1000 (max. 8388607)
  196 compressed objects within 2 object streams
