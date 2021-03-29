@@ -27,7 +27,7 @@ We describe the specifics of our implementation in more detail below. At a high-
 
 \subsection{Network architecture}
 \label{sec:netarch}
-\textit{Fig. \ref{fig:architecture}} shows the network architecture of the system. Both the client and server communicate using Tor to prevent an adversary from trivially identifying the devices' traffic. Additionally, we configure Tor on the doorbell side to use Snowflake pluggable transport. Snowflake is an add-on for Tor that tunnels Tor traffic through WebRTC \cite{snowflake} \cite{macmillan2020evaluating}, a protocol that is popular for videoconferencing (e.g. Google's Hangouts or Jitsi). By using Snowflake, an adversary that monitors the communication from the user's home cannot easily identify the use or presence of the IoT doorbell, since its traffic is disguised as WebRTC flows.
+\textit{Fig. \ref{fig:architecture}} shows the network architecture of the system. Both the client and server communicate using Tor to prevent an adversary from trivially identifying the devices' traffic. Additionally, we configure Tor on the doorbell side to use Snowflake pluggable transport. Snowflake is an add-on for Tor that tunnels Tor traffic through WebRTC \cite{macmillan2020evaluating}, a protocol that is popular for videoconferencing (e.g. Google's Hangouts or Jitsi). By using Snowflake, an adversary that monitors the communication from the user's home cannot easily identify the use or presence of the IoT doorbell, since its traffic is disguised as WebRTC flows.
 
 \begin{figure}
 	\includegraphics[width=\linewidth]{architecture.png}
@@ -50,12 +50,12 @@ By clicking on the notification message on her phone, the user should be able to
 
 \begin{figure}
 	\includegraphics[width=\linewidth]{Sequence_diagram_playvideo.pdf}
-	\caption{}
+	\caption{Sequence diagram: Video streaming}
 	\label{fig:playvideo}
 \end{figure}
 \begin{figure}
 	\includegraphics[width=\linewidth]{Sequence_diagram_push.pdf}
-	\caption{}
+	\caption{Sequence diagram: Push notification}
 	\label{fig:push}
 \end{figure}
 
@@ -97,7 +97,7 @@ The server checks if \textit{all} credentials match and shuts down the connectio
 
 \begin{figure}
 	\includegraphics[width=\linewidth]{fig_url.jpg}
-	\caption{}
+	\caption{An example of video serving URL}
 	\label{fig:url}
 \end{figure}
 
@@ -125,19 +125,16 @@ The doorbell serves a webpage for the user to manipulate device settings, includ
 \textit{Fig. \ref{fig:app_sc_management}} shows the preference page, and \textit{Fig. \ref{fig:app_sc_token_revoke}} shows the token management (where user can revoke trusted devices) of the app.
 
 \begin{figure}
-	\caption{Android App GUI Examples}
 	\begin{minipage}[t]{0.3\linewidth}
 		\includegraphics[width=\linewidth]{app_sc_main.png}
-		\label{fig:app_sc_main}	
 	\end{minipage}
 	\begin{minipage}[t]{0.3\linewidth}
 		\includegraphics[width=\linewidth]{app_sc_management.png}
-		\label{fig:app_sc_management}
 	\end{minipage}
 	\begin{minipage}[t]{0.3\linewidth}
 		\includegraphics[width=\linewidth]{app_sc_token_revoke.png}
-		\label{fig:app_sc_token_revoke}
 	\end{minipage}	
+	\caption{Android App GUI Examples}
 \end{figure}
 
 
@@ -164,13 +161,13 @@ We measure our system's latency as the time difference between the user’s pres
 
 \begin{figure}
 	\includegraphics[width=\linewidth]{plot1.pdf}
-	\caption{}
+	\caption{Time consumption of the four phases}
 	\label{fig:timeconsumption}
 \end{figure}
 
 \begin{figure}
 	\includegraphics[width=\linewidth]{plot2.pdf}
-	\caption{}
+	\caption{Time consumption of the four phases (percentage)}
 	\label{fig:timepercentage}
 \end{figure}
 

@@ -49,13 +49,8 @@
 \contentsline {chapter}{\numberline {5}Discussion and Open Questions}{36}%
 \contentsline {section}{\numberline {5.1}Traffic cover}{36}%
 \contentsline {section}{\numberline {5.2}Decentralized push notification}{36}%
-\contentsline {section}{\numberline {5.3}Storage}{37}%
+\contentsline {section}{\numberline {5.3}Storage}{38}%
 \contentsline {section}{\numberline {5.4}IoT devices in untrusted network}{38}%
 \contentsline {section}{\numberline {5.5}IoT-to-IoT communication}{39}%
 \contentsline {chapter}{\numberline {6}Conclusion}{40}%
-\par \vspace {6\p@ }
-\noindent {\sc Appendix}
-\vspace {-3\p@ }
-\contentsline {chapter}{\numberline {A}First Appendix}{41}%
-\contentsline {chapter}{\numberline {B}Second Appendix}{42}%
-\contentsline {pseudochapter}{\sc Bibliography}{43}%
+\contentsline {pseudochapter}{\sc Bibliography}{41}%

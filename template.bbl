@@ -37,30 +37,6 @@
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
 
-\bibitem[\protect\citeauthoryear{??}{sno}{[n. d.]}]%
-        {snowflake}
- \bibinfo{year}{[n. d.]}\natexlab{}.
-\newblock \bibinfo{title}{keroserene/snowflake: WebRTC Pluggable Transport}.
-\newblock
-\newblock
-\urldef\tempurl%
-\url{https://github.com/keroserene/snowflake}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{??}{tor}{[n. d.]}]%
-        {torproject}
- \bibinfo{year}{[n. d.]}\natexlab{}.
-\newblock \bibinfo{title}{The Tor Project: Privacy Freedom Online}.
-\newblock
-\newblock
-\urldef\tempurl%
-\url{https://www.torproject.org/about/history/}
-\showURL{%
-\tempurl}
-
-
 \bibitem[\protect\citeauthoryear{Acar, Backes, Bugiel, Fahl, McDaniel, and
   Smith}{Acar et~al\mbox{.}}{2016}]%
         {acar2016sok}
@@ -230,6 +206,19 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Inc.}{Inc.}{2021}]%
+        {torproject}
+\bibfield{author}{\bibinfo{person}{The Tor~Project Inc.}}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{The Tor Project: Privacy Freedom Online}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.torproject.org/about/history/}
+\showURL{%
+\tempurl}
+
+
 \bibitem[\protect\citeauthoryear{Juarez, Imani, Perry, Diaz, and Wright}{Juarez
   et~al\mbox{.}}{2016}]%
         {juarez2016toward}
@@ -378,6 +367,20 @@
 \newblock \bibinfo{journal}{\emph{IEEE Internet of Things Journal}}
   \bibinfo{volume}{4}, \bibinfo{number}{6} (\bibinfo{year}{2017}),
   \bibinfo{pages}{1844--1852}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Stoica, Morris, Karger, Kaashoek, and
+  Balakrishnan}{Stoica et~al\mbox{.}}{2001}]%
+        {stoica2001chord}
+\bibfield{author}{\bibinfo{person}{Ion Stoica}, \bibinfo{person}{Robert
+  Morris}, \bibinfo{person}{David Karger}, \bibinfo{person}{M~Frans Kaashoek},
+  {and} \bibinfo{person}{Hari Balakrishnan}.} \bibinfo{year}{2001}\natexlab{}.
+\newblock \showarticletitle{Chord: A scalable peer-to-peer lookup service for
+  internet applications}.
+\newblock \bibinfo{journal}{\emph{ACM SIGCOMM Computer Communication Review}}
+  \bibinfo{volume}{31}, \bibinfo{number}{4} (\bibinfo{year}{2001}),
+  \bibinfo{pages}{149--160}.
 \newblock
 
 

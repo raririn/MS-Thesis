@@ -5,33 +5,15 @@ The style file: bibs/ACM-Reference-Format.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: bibs/bibs.bib
-Repeated entry---line 405 of file bibs/bibs.bib
+Repeated entry---line 411 of file bibs/bibs.bib
  : @inproceedings{chaabane2010digging
  :                                   ,
 I'm skipping whatever remains of this entry
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Warning--no key, author in torproject
-Warning--no author, editor, organization, or key in torproject
-Warning--to sort, need author or key in torproject
-Warning--no key, author in snowflake
-Warning--no author, editor, organization, or key in snowflake
-Warning--to sort, need author or key in snowflake
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=200001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
-Warning--no key, author in snowflake
-Warning--no key, author in snowflake
-Warning--no key, author in torproject
-Warning--no key, author in torproject
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Warning--no key, author in snowflake
-Warning--no author, editor, organization, or key in snowflake
-Warning--empty author in snowflake
-Warning--empty year in snowflake
-Warning--no key, author in torproject
-Warning--no author, editor, organization, or key in torproject
-Warning--empty author in torproject
-Warning--empty year in torproject
 Warning--empty publisher in acar2016sok
 Warning--empty address in acar2016sok
 Warning--empty publisher in alrawi2019sok
@@ -76,43 +58,43 @@ Warning--empty publisher in winter2018tor
 Warning--empty address in winter2018tor
 You've used 32 entries,
             5719 wiz_defined-function locations,
-            1459 strings with 20833 characters,
-and the built_in function-call counts, 37709 in all, are:
-= -- 4486
-> -- 1431
+            1464 strings with 21006 characters,
+and the built_in function-call counts, 38615 in all, are:
+= -- 4681
+> -- 1514
 < -- 0
-+ -- 492
-- -- 492
-* -- 2679
-:= -- 3836
-add.period$ -- 159
++ -- 516
+- -- 520
+* -- 2742
+:= -- 3985
+add.period$ -- 161
 call.type$ -- 32
-change.case$ -- 230
+change.case$ -- 236
 chr.to.int$ -- 32
-cite$ -- 100
-duplicate$ -- 3355
-empty$ -- 2354
-format.name$ -- 592
-if$ -- 9022
+cite$ -- 74
+duplicate$ -- 3388
+empty$ -- 2366
+format.name$ -- 624
+if$ -- 9228
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 120
-newline$ -- 300
-num.names$ -- 240
-pop$ -- 1403
+missing$ -- 124
+newline$ -- 296
+num.names$ -- 256
+pop$ -- 1341
 preamble$ -- 1
-purify$ -- 505
+purify$ -- 523
 quote$ -- 0
-skip$ -- 1187
+skip$ -- 1215
 stack$ -- 0
-substring$ -- 2638
-swap$ -- 324
+substring$ -- 2747
+swap$ -- 332
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 820
-warning$ -- 60
-while$ -- 230
+type$ -- 806
+warning$ -- 42
+while$ -- 245
 width$ -- 0
-write$ -- 586
+write$ -- 585
 (There was 1 error message)
