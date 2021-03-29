@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{29}
+\begin{thebibliography}{32}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -115,6 +115,19 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Au, Zhou, Huang, and Lie}{Au
+  et~al\mbox{.}}{2012}]%
+        {au2012pscout}
+\bibfield{author}{\bibinfo{person}{Kathy Wain~Yee Au}, \bibinfo{person}{Yi~Fan
+  Zhou}, \bibinfo{person}{Zhen Huang}, {and} \bibinfo{person}{David Lie}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Pscout: analyzing the android permission
+  specification}. In \bibinfo{booktitle}{\emph{Proceedings of the 2012 ACM
+  conference on Computer and communications security}}.
+  \bibinfo{pages}{217--228}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Baumann, Odefey, Hudert, Falkenthal, and
   Breitenb{\"u}cher}{Baumann et~al\mbox{.}}{2018}]%
         {baumann2018utilising}
@@ -150,6 +163,19 @@
 \newblock \bibinfo{booktitle}{\emph{Tor: The second-generation onion router}}.
 \newblock \bibinfo{type}{{T}echnical {R}eport}. \bibinfo{institution}{Naval
   Research Lab Washington DC}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Egele, Brumley, Fratantonio, and
+  Kruegel}{Egele et~al\mbox{.}}{2013}]%
+        {egele2013empirical}
+\bibfield{author}{\bibinfo{person}{Manuel Egele}, \bibinfo{person}{David
+  Brumley}, \bibinfo{person}{Yanick Fratantonio}, {and}
+  \bibinfo{person}{Christopher Kruegel}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{An empirical study of cryptographic misuse in
+  android applications}. In \bibinfo{booktitle}{\emph{Proceedings of the 2013
+  ACM SIGSAC conference on Computer \& communications security}}.
+  \bibinfo{pages}{73--84}.
 \newblock
 
 
@@ -240,6 +266,17 @@
 \url{https://money.cnn.com/2017/01/09/technology/fda-st-jude-cardiac-hack/}
 \showURL{%
 \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Lin and Bergmann}{Lin and Bergmann}{2016}]%
+        {lin2016iot}
+\bibfield{author}{\bibinfo{person}{Huichen Lin} {and} \bibinfo{person}{Neil~W
+  Bergmann}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{IoT privacy and security challenges for smart home
+  environments}.
+\newblock \bibinfo{journal}{\emph{Information}} \bibinfo{volume}{7},
+  \bibinfo{number}{3} (\bibinfo{year}{2016}), \bibinfo{pages}{44}.
+\newblock
 
 
 \bibitem[\protect\citeauthoryear{MacMillan, Holland, and Mittal}{MacMillan

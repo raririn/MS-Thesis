@@ -40,10 +40,14 @@ Warning--empty publisher in antonakakis2017understanding
 Warning--empty address in antonakakis2017understanding
 Warning--no number and no volume in apthorpe2017smart
 Warning--page numbers missing in both pages and numpages fields in apthorpe2017smart
+Warning--empty publisher in au2012pscout
+Warning--empty address in au2012pscout
 Warning--empty publisher in baumann2018utilising
 Warning--empty address in baumann2018utilising
 Warning--empty publisher in chaabane2010digging
 Warning--empty address in chaabane2010digging
+Warning--empty publisher in egele2013empirical
+Warning--empty address in egele2013empirical
 Warning--empty publisher in hiller2019tailoring
 Warning--empty address in hiller2019tailoring
 Warning--no number and no volume in hilt2019internet
@@ -70,45 +74,45 @@ Warning--empty publisher in wang2012octopus
 Warning--empty address in wang2012octopus
 Warning--empty publisher in winter2018tor
 Warning--empty address in winter2018tor
-You've used 29 entries,
+You've used 32 entries,
             5719 wiz_defined-function locations,
-            1442 strings with 20191 characters,
-and the built_in function-call counts, 33956 in all, are:
-= -- 4036
-> -- 1289
+            1459 strings with 20833 characters,
+and the built_in function-call counts, 37709 in all, are:
+= -- 4486
+> -- 1431
 < -- 0
-+ -- 443
-- -- 444
-* -- 2413
-:= -- 3461
-add.period$ -- 144
-call.type$ -- 29
-change.case$ -- 208
-chr.to.int$ -- 29
-cite$ -- 93
-duplicate$ -- 3014
-empty$ -- 2118
-format.name$ -- 532
-if$ -- 8111
++ -- 492
+- -- 492
+* -- 2679
+:= -- 3836
+add.period$ -- 159
+call.type$ -- 32
+change.case$ -- 230
+chr.to.int$ -- 32
+cite$ -- 100
+duplicate$ -- 3355
+empty$ -- 2354
+format.name$ -- 592
+if$ -- 9022
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 106
-newline$ -- 278
-num.names$ -- 216
-pop$ -- 1261
+missing$ -- 120
+newline$ -- 300
+num.names$ -- 240
+pop$ -- 1403
 preamble$ -- 1
-purify$ -- 456
+purify$ -- 505
 quote$ -- 0
-skip$ -- 1065
+skip$ -- 1187
 stack$ -- 0
-substring$ -- 2373
-swap$ -- 289
+substring$ -- 2638
+swap$ -- 324
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 744
-warning$ -- 56
-while$ -- 207
+type$ -- 820
+warning$ -- 60
+while$ -- 230
 width$ -- 0
-write$ -- 537
+write$ -- 586
 (There was 1 error message)

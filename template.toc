@@ -1,63 +1,61 @@
-\contentsline {pseudochapter}{\sc Acknowledgments}{vi}%
-\contentsline {pseudochapter}{\sc Preface}{vii}%
 \par \vspace {6\p@ }
 \noindent {\sc Chapter}
 \vspace {-3\p@ }
 \contentsline {chapter}{\numberline {1}Introduction}{1}%
 \contentsline {section}{\numberline {1.1}Background on IoT devices}{1}%
-\contentsline {section}{\numberline {1.2}Motivation: the need for a privacy-preserving framework}{3}%
+\contentsline {section}{\numberline {1.2}Motivation: the need for a privacy-preserving framework}{2}%
 \contentsline {subsection}{\numberline {1.2.1}Privacy threats of IoT devices}{3}%
 \contentsline {subsection}{\numberline {1.2.2}Challenges}{3}%
 \contentsline {section}{\numberline {1.3}Overview of approach}{4}%
-\contentsline {section}{\numberline {1.4}Scientific questions and contributions}{5}%
+\contentsline {section}{\numberline {1.4}Scientific questions and contributions}{4}%
 \contentsline {chapter}{\numberline {2}Related work}{6}%
-\contentsline {section}{\numberline {2.1}IoT security}{6}%
-\contentsline {section}{\numberline {2.2}Anonymity and IoT}{7}%
+\contentsline {section}{\numberline {2.1}IoT security and privacy}{6}%
+\contentsline {section}{\numberline {2.2}Anonymity and IoT}{8}%
 \contentsline {section}{\numberline {2.3}Background on Tor}{8}%
-\contentsline {chapter}{\numberline {3}A privacy-preserving framework for IoT devices}{10}%
-\contentsline {section}{\numberline {3.1}Communication models}{10}%
-\contentsline {section}{\numberline {3.2}Threat model}{10}%
-\contentsline {subsection}{\numberline {3.2.1}Actors and capabilities}{11}%
-\contentsline {subsection}{\numberline {3.2.2}Security and Privacy Guarantees}{12}%
-\contentsline {section}{\numberline {3.3}Features}{12}%
-\contentsline {section}{\numberline {3.4}Constructing a Privacy-Preserving Framework for IoT Devices.}{13}%
-\contentsline {paragraph}{Achieving strong authentication and end-to-end confidentiality.}{13}%
-\contentsline {paragraph}{Resistance to traffic analysis.}{14}%
-\contentsline {paragraph}{Attack resistance.}{15}%
-\contentsline {paragraph}{Resistance to enumeration.}{15}%
-\contentsline {chapter}{\numberline {4}Case-study: A privacy-Preserving Video Doorbell}{16}%
-\contentsline {section}{\numberline {4.1}Features and system design}{16}%
-\contentsline {subsection}{\numberline {4.1.1}Features}{16}%
-\contentsline {subsection}{\numberline {4.1.2}Network architecture}{17}%
-\contentsline {subsection}{\numberline {4.1.3}Operation}{19}%
-\contentsline {section}{\numberline {4.2}Face detection}{20}%
-\contentsline {section}{\numberline {4.3}Device specifications}{21}%
-\contentsline {section}{\numberline {4.4}Push notification}{22}%
-\contentsline {section}{\numberline {4.5}Video streaming}{23}%
-\contentsline {section}{\numberline {4.6}Android App}{24}%
-\contentsline {subsection}{\numberline {4.6.1}Registration}{24}%
-\contentsline {subsection}{\numberline {4.6.2}Media player}{24}%
-\contentsline {subsection}{\numberline {4.6.3}Two-way communication}{25}%
-\contentsline {subsection}{\numberline {4.6.4}Management}{25}%
-\contentsline {section}{\numberline {4.7}Experimental study}{26}%
-\contentsline {subsection}{\numberline {4.7.1}Streaming latency}{26}%
-\contentsline {subsection}{\numberline {4.7.2}Energy consumption}{27}%
-\contentsline {subsection}{\numberline {4.7.3}Bandwidth}{30}%
-\contentsline {subsection}{\numberline {4.7.4}Video and audio quality}{30}%
-\contentsline {subsection}{\numberline {4.7.5}Notification latency}{30}%
-\contentsline {subsection}{\numberline {4.7.6}The cost of using Tor}{30}%
-\contentsline {paragraph}{Streaming latency}{30}%
-\contentsline {paragraph}{Notification latency}{32}%
-\contentsline {chapter}{\numberline {5}Discussion and Open Questions}{33}%
-\contentsline {section}{\numberline {5.1}Traffic cover}{33}%
-\contentsline {section}{\numberline {5.2}Decentralized push notification}{33}%
-\contentsline {section}{\numberline {5.3}Storage}{34}%
-\contentsline {section}{\numberline {5.4}IoT devices in untrusted network}{35}%
-\contentsline {section}{\numberline {5.5}IoT-to-IoT communication}{36}%
-\contentsline {chapter}{\numberline {6}Conclusion}{37}%
+\contentsline {chapter}{\numberline {3}A privacy-preserving framework for IoT devices}{11}%
+\contentsline {section}{\numberline {3.1}Communication models}{11}%
+\contentsline {section}{\numberline {3.2}Threat model}{11}%
+\contentsline {subsection}{\numberline {3.2.1}Actors and capabilities}{12}%
+\contentsline {subsection}{\numberline {3.2.2}Security and Privacy Guarantees}{13}%
+\contentsline {section}{\numberline {3.3}Features}{14}%
+\contentsline {section}{\numberline {3.4}Constructing a Privacy-Preserving Framework for IoT Devices.}{15}%
+\contentsline {paragraph}{Achieving strong authentication and end-to-end confidentiality.}{15}%
+\contentsline {paragraph}{Resistance to traffic analysis.}{16}%
+\contentsline {paragraph}{Attack resistance.}{16}%
+\contentsline {paragraph}{Resistance to enumeration.}{17}%
+\contentsline {chapter}{\numberline {4}Case-study: A privacy-Preserving Video Doorbell}{18}%
+\contentsline {section}{\numberline {4.1}Features and system design}{18}%
+\contentsline {subsection}{\numberline {4.1.1}Features}{18}%
+\contentsline {subsection}{\numberline {4.1.2}Network architecture}{19}%
+\contentsline {subsection}{\numberline {4.1.3}Operation}{21}%
+\contentsline {section}{\numberline {4.2}Face detection}{22}%
+\contentsline {section}{\numberline {4.3}Device specifications}{23}%
+\contentsline {section}{\numberline {4.4}Push notification}{24}%
+\contentsline {section}{\numberline {4.5}Video streaming}{25}%
+\contentsline {section}{\numberline {4.6}Android App}{26}%
+\contentsline {subsection}{\numberline {4.6.1}Registration}{26}%
+\contentsline {subsection}{\numberline {4.6.2}Media player}{26}%
+\contentsline {subsection}{\numberline {4.6.3}Two-way communication}{27}%
+\contentsline {subsection}{\numberline {4.6.4}Management}{27}%
+\contentsline {section}{\numberline {4.7}Experimental study}{28}%
+\contentsline {subsection}{\numberline {4.7.1}Streaming latency}{28}%
+\contentsline {subsection}{\numberline {4.7.2}Energy consumption}{29}%
+\contentsline {subsection}{\numberline {4.7.3}Bandwidth}{32}%
+\contentsline {subsection}{\numberline {4.7.4}Video and audio quality}{32}%
+\contentsline {subsection}{\numberline {4.7.5}Notification latency}{32}%
+\contentsline {subsection}{\numberline {4.7.6}The cost of using Tor}{32}%
+\contentsline {paragraph}{Streaming latency}{32}%
+\contentsline {paragraph}{Notification latency}{34}%
+\contentsline {chapter}{\numberline {5}Discussion and Open Questions}{35}%
+\contentsline {section}{\numberline {5.1}Traffic cover}{35}%
+\contentsline {section}{\numberline {5.2}Decentralized push notification}{35}%
+\contentsline {section}{\numberline {5.3}Storage}{36}%
+\contentsline {section}{\numberline {5.4}IoT devices in untrusted network}{37}%
+\contentsline {section}{\numberline {5.5}IoT-to-IoT communication}{38}%
+\contentsline {chapter}{\numberline {6}Conclusion}{39}%
 \par \vspace {6\p@ }
 \noindent {\sc Appendix}
 \vspace {-3\p@ }
-\contentsline {chapter}{\numberline {A}First Appendix}{38}%
-\contentsline {chapter}{\numberline {B}Second Appendix}{39}%
-\contentsline {pseudochapter}{\sc Bibliography}{40}%
+\contentsline {chapter}{\numberline {A}First Appendix}{40}%
+\contentsline {chapter}{\numberline {B}Second Appendix}{41}%
+\contentsline {pseudochapter}{\sc Bibliography}{42}%

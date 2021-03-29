@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.7.14)  28 MAR 2021 01:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.7.14)  29 MAR 2021 01:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -235,39 +235,34 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  [1
 
-{d:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5
-
-]
-[6
-
-] [7
-
-] (./template.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
+{d:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4]
+(./template.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
  (d:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+
 (d:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [8
+) [5
 
 ])
 \tf@toc=\write3
 \openout3 = `template.toc'.
 
- [9]
+ [6]
 (./template.lof)
 \tf@lof=\write4
 \openout4 = `template.lof'.
 
- [10
+ [7
 
 ] (./template.lot)
 \tf@lot=\write5
 \openout5 = `template.lot'.
 
- [11
+ [8
 
 ] (./chapters/introduction.tex
 Chapter 1.
@@ -277,11 +272,11 @@ Chapter 1.
 
 pdfTeX warning: pdflatex.exe (file ./centralized_structure.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<centralized_structure.pdf, id=44, 794.97pt x 614.295pt>
+<centralized_structure.pdf, id=35, 794.97pt x 614.295pt>
 File: centralized_structure.pdf Graphic file (type pdf)
 <use centralized_structure.pdf>
-Package pdftex.def Info: centralized_structure.pdf  used on input line 20.
-(pdftex.def)             Requested size: 433.62pt x 335.07939pt.
+Package pdftex.def Info: centralized_structure.pdf  used on input line 21.
+(pdftex.def)             Requested size: 390.25534pt x 301.56958pt.
 [2 <./centralized_structure.pdf>] [3] [4]) (./chapters/relatedwork.tex [5]
 Chapter 2.
 [6
@@ -290,107 +285,131 @@ Chapter 2.
 
 pdfTeX warning: pdflatex.exe (file ./natpiercing.pdf): PDF inclusion: found PDF
  version <1.7>, but at most version <1.5> allowed
-<natpiercing.pdf, id=79, 794.97pt x 614.295pt>
+<natpiercing.pdf, id=69, 794.97pt x 614.295pt>
 File: natpiercing.pdf Graphic file (type pdf)
 <use natpiercing.pdf>
-Package pdftex.def Info: natpiercing.pdf  used on input line 38.
+Package pdftex.def Info: natpiercing.pdf  used on input line 42.
 (pdftex.def)             Requested size: 433.62pt x 335.07939pt.
-) (./chapters/framework.tex [9 <./natpiercing.pdf>]
+) (./chapters/framework.tex [9] [10 <./natpiercing.pdf>]
 Chapter 3.
-[10
 
-] [11] [12] [13] [14]) (./chapters/casestudy.tex [15]
+
+pdfTeX warning: pdflatex.exe (file ./comm_model_1.pdf): PDF inclusion: found PD
+F version <1.7>, but at most version <1.5> allowed
+<comm_model_1.pdf, id=91, 794.97pt x 614.295pt>
+File: comm_model_1.pdf Graphic file (type pdf)
+<use comm_model_1.pdf>
+Package pdftex.def Info: comm_model_1.pdf  used on input line 17.
+(pdftex.def)             Requested size: 216.81pt x 167.53032pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./comm_model_2.pdf): PDF inclusion: found PD
+F version <1.7>, but at most version <1.5> allowed
+<comm_model_2.pdf, id=92, 794.97pt x 614.295pt>
+File: comm_model_2.pdf Graphic file (type pdf)
+<use comm_model_2.pdf>
+Package pdftex.def Info: comm_model_2.pdf  used on input line 22.
+(pdftex.def)             Requested size: 216.81pt x 167.53032pt.
+
+Overfull \hbox (2.61049pt too wide) in paragraph at lines 16--26
+[][] [] 
+ []
+
+[11
+
+] [12 <./comm_model_1.pdf> <./comm_model_2.pdf>] [13] [14] [15] [16])
+(./chapters/casestudy.tex [17]
 Chapter 4.
-[16
+[18
 
 ]
-<Use_case_diagram.png, id=120, 1425.325pt x 1225.57875pt>
+<Use_case_diagram.png, id=126, 1425.325pt x 1225.57875pt>
 File: Use_case_diagram.png Graphic file (type png)
 <use Use_case_diagram.png>
 Package pdftex.def Info: Use_case_diagram.png  used on input line 23.
 (pdftex.def)             Requested size: 433.62pt x 372.83789pt.
-<architecture.png, id=122, 1267.73625pt x 490.83376pt>
+<architecture.png, id=128, 1267.73625pt x 490.83376pt>
 File: architecture.png Graphic file (type png)
 <use architecture.png>
 Package pdftex.def Info: architecture.png  used on input line 32.
 (pdftex.def)             Requested size: 433.62pt x 167.88486pt.
- [17] [18 <./Use_case_diagram.png> <./architecture.png>] [19]
-<Sequence_diagram_playvideo.pdf, id=134, 421.575pt x 196.735pt>
+ [19] [20 <./Use_case_diagram.png> <./architecture.png>] [21]
+<Sequence_diagram_playvideo.pdf, id=140, 421.575pt x 196.735pt>
 File: Sequence_diagram_playvideo.pdf Graphic file (type pdf)
 <use Sequence_diagram_playvideo.pdf>
 Package pdftex.def Info: Sequence_diagram_playvideo.pdf  used on input line 51.
 
 (pdftex.def)             Requested size: 433.62pt x 202.3601pt.
-<Sequence_diagram_push.pdf, id=135, 421.575pt x 184.69pt>
+<Sequence_diagram_push.pdf, id=141, 421.575pt x 184.69pt>
 File: Sequence_diagram_push.pdf Graphic file (type pdf)
 <use Sequence_diagram_push.pdf>
 Package pdftex.def Info: Sequence_diagram_push.pdf  used on input line 56.
 (pdftex.def)             Requested size: 433.62pt x 189.97072pt.
- [20 <./Sequence_diagram_playvideo.pdf>] [21 <./Sequence_diagram_push.pdf>] [22
+ [22 <./Sequence_diagram_playvideo.pdf>] [23 <./Sequence_diagram_push.pdf>] [24
 ]
-<fig_url.jpg, id=157, 1023.825pt x 91.84312pt>
+<fig_url.jpg, id=163, 1023.825pt x 91.84312pt>
 File: fig_url.jpg Graphic file (type jpg)
 <use fig_url.jpg>
 Package pdftex.def Info: fig_url.jpg  used on input line 98.
 (pdftex.def)             Requested size: 433.62pt x 38.89755pt.
- [23]
-[24 <./fig_url.jpg>]
-<app_sc_main.png, id=166, 1084.05pt x 2168.1pt>
+ [25]
+[26 <./fig_url.jpg>]
+<app_sc_main.png, id=172, 1084.05pt x 2168.1pt>
 File: app_sc_main.png Graphic file (type png)
 <use app_sc_main.png>
 Package pdftex.def Info: app_sc_main.png  used on input line 128.
 (pdftex.def)             Requested size: 65.04366pt x 130.08038pt.
-<app_sc_management.png, id=167, 1084.05pt x 2168.1pt>
+<app_sc_management.png, id=173, 1084.05pt x 2168.1pt>
 File: app_sc_management.png Graphic file (type png)
 <use app_sc_management.png>
 Package pdftex.def Info: app_sc_management.png  used on input line 133.
 (pdftex.def)             Requested size: 65.04366pt x 130.08038pt.
-<app_sc_token_revoke.png, id=168, 1084.05pt x 2168.1pt>
+<app_sc_token_revoke.png, id=174, 1084.05pt x 2168.1pt>
 File: app_sc_token_revoke.png Graphic file (type png)
 <use app_sc_token_revoke.png>
 Package pdftex.def Info: app_sc_token_revoke.png  used on input line 138.
 (pdftex.def)             Requested size: 65.04366pt x 130.08038pt.
- [25 <./app_sc_main.png> <./app_sc_management.png> <./app_sc_token_revoke.png>]
- [26]
-<plot1.pdf, id=176, 377.64214pt x 264.6255pt>
+ [27 <./app_sc_main.png> <./app_sc_management.png> <./app_sc_token_revoke.png>]
+ [28]
+<plot1.pdf, id=181, 377.64214pt x 264.6255pt>
 File: plot1.pdf Graphic file (type pdf)
 <use plot1.pdf>
 Package pdftex.def Info: plot1.pdf  used on input line 168.
 (pdftex.def)             Requested size: 433.62pt x 303.86067pt.
-<plot2.pdf, id=177, 377.64214pt x 249.44379pt>
+<plot2.pdf, id=182, 377.64214pt x 249.44379pt>
 File: plot2.pdf Graphic file (type pdf)
 <use plot2.pdf>
 Package pdftex.def Info: plot2.pdf  used on input line 174.
 (pdftex.def)             Requested size: 433.62pt x 286.42802pt.
- [27] [28 <./plot1.pdf>] [29 <./plot2.pdf>]
-<notification_latency_withTor.pdf, id=257, 433.62pt x 289.08pt>
+ [29] [30 <./plot1.pdf>] [31 <./plot2.pdf>]
+<notification_latency_withTor.pdf, id=263, 433.62pt x 289.08pt>
 File: notification_latency_withTor.pdf Graphic file (type pdf)
 <use notification_latency_withTor.pdf>
 Package pdftex.def Info: notification_latency_withTor.pdf  used on input line 2
 04.
 (pdftex.def)             Requested size: 433.62pt x 289.09251pt.
- [30]
-[31 <./notification_latency_withTor.pdf>]
-<plot_push_tor_vs_vanilla.pdf, id=292, 433.62pt x 289.08pt>
+ [32]
+[33 <./notification_latency_withTor.pdf>]
+<plot_push_tor_vs_vanilla.pdf, id=298, 433.62pt x 289.08pt>
 File: plot_push_tor_vs_vanilla.pdf Graphic file (type pdf)
 <use plot_push_tor_vs_vanilla.pdf>
 Package pdftex.def Info: plot_push_tor_vs_vanilla.pdf  used on input line 218.
 (pdftex.def)             Requested size: 433.62pt x 289.09251pt.
-) (./chapters/discussion.tex [32 <./plot_push_tor_vs_vanilla.pdf>]
+) (./chapters/discussion.tex [34 <./plot_push_tor_vs_vanilla.pdf>]
 Chapter 5.
-[33
+[35
 
-] [34]) (./chapters/conclusion.tex [35] [36]
+] [36]) (./chapters/conclusion.tex [37] [38]
 Chapter 6.
-) [37
+) [39
 
 ]
 Appendix A.
-[38
+[40
 
 ]
 Appendix B.
-(./template.bbl [39
+(./template.bbl [41
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 4
@@ -398,41 +417,41 @@ LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 4
  (d:/texlive/2020/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-[40
+[42
 
 ]
-Underfull \hbox (badness 1418) in paragraph at lines 174--180
+Underfull \hbox (badness 1418) in paragraph at lines 200--206
 []\T1/cmr/m/n/12 Jens Hiller, Jan Pen-nekamp, Markus Dahlmanns, Martin Henze, A
 ndriy
  []
 
-[41]
-Underfull \hbox (badness 2922) in paragraph at lines 233--243
+[43]
+Underfull \hbox (badness 2922) in paragraph at lines 259--269
 []\T1/cmr/m/n/12 Selena Larson. 2017.  FDA con-firms that St. Jude's car-diac d
 evices
  []
 
 
-Underfull \hbox (badness 3646) in paragraph at lines 233--243
+Underfull \hbox (badness 3646) in paragraph at lines 259--269
 \T1/cmr/m/n/12 can be hacked.    $\T1/cmtt/m/n/12 https : / / money . cnn . com
  / 2017 / 01 / 09 / technology /
  []
 
-[42] [43])
+[44] [45])
 ***
 *** Note!
 *** Because this document has a table of contents,
 *** you must run LaTeX TWICE to get it to print correctly.
 ***
-[44] (./template.aux) ) 
+[46] (./template.aux) ) 
 Here is how much of TeX's memory you used:
- 4662 strings out of 480471
- 67099 string characters out of 5903300
- 303519 words of memory out of 5000000
- 20609 multiletter control sequences out of 15000+600000
+ 4686 strings out of 480471
+ 67603 string characters out of 5903300
+ 303734 words of memory out of 5000000
+ 20631 multiletter control sequences out of 15000+600000
  541222 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,7n,47p,1023b,370s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,7n,47p,1023b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
 {d:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-
 super-t1.enc}{d:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.
 enc}<d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/t
@@ -443,10 +462,10 @@ type1/public/cm-super/sfcc1200.pfb><d:/texlive/2020/texmf-dist/fonts/type1/publ
 ic/cm-super/sfrm1200.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-supe
 r/sfti1200.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt1200
 .pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfxc1200.pfb>
-Output written on template.pdf (55 pages, 1061399 bytes).
+Output written on template.pdf (54 pages, 1126714 bytes).
 PDF statistics:
- 401 PDF objects out of 1000 (max. 8388607)
- 203 compressed objects within 3 object streams
+ 406 PDF objects out of 1000 (max. 8388607)
+ 202 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
