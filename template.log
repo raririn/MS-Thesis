@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.7.14)  29 MAR 2021 01:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.7.14)  29 MAR 2021 12:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -331,85 +331,86 @@ Package pdftex.def Info: Use_case_diagram.png  used on input line 23.
 <architecture.png, id=128, 1267.73625pt x 490.83376pt>
 File: architecture.png Graphic file (type png)
 <use architecture.png>
-Package pdftex.def Info: architecture.png  used on input line 32.
+Package pdftex.def Info: architecture.png  used on input line 33.
 (pdftex.def)             Requested size: 433.62pt x 167.88486pt.
  [19] [20 <./Use_case_diagram.png> <./architecture.png>] [21]
 <Sequence_diagram_playvideo.pdf, id=140, 421.575pt x 196.735pt>
 File: Sequence_diagram_playvideo.pdf Graphic file (type pdf)
 <use Sequence_diagram_playvideo.pdf>
-Package pdftex.def Info: Sequence_diagram_playvideo.pdf  used on input line 51.
+Package pdftex.def Info: Sequence_diagram_playvideo.pdf  used on input line 52.
 
 (pdftex.def)             Requested size: 433.62pt x 202.3601pt.
 <Sequence_diagram_push.pdf, id=141, 421.575pt x 184.69pt>
 File: Sequence_diagram_push.pdf Graphic file (type pdf)
 <use Sequence_diagram_push.pdf>
-Package pdftex.def Info: Sequence_diagram_push.pdf  used on input line 56.
+Package pdftex.def Info: Sequence_diagram_push.pdf  used on input line 57.
 (pdftex.def)             Requested size: 433.62pt x 189.97072pt.
  [22 <./Sequence_diagram_playvideo.pdf>] [23 <./Sequence_diagram_push.pdf>] [24
 ]
 <fig_url.jpg, id=163, 1023.825pt x 91.84312pt>
 File: fig_url.jpg Graphic file (type jpg)
 <use fig_url.jpg>
-Package pdftex.def Info: fig_url.jpg  used on input line 98.
+Package pdftex.def Info: fig_url.jpg  used on input line 99.
 (pdftex.def)             Requested size: 433.62pt x 38.89755pt.
  [25]
 [26 <./fig_url.jpg>]
 <app_sc_main.png, id=172, 1084.05pt x 2168.1pt>
 File: app_sc_main.png Graphic file (type png)
 <use app_sc_main.png>
-Package pdftex.def Info: app_sc_main.png  used on input line 128.
-(pdftex.def)             Requested size: 65.04366pt x 130.08038pt.
+Package pdftex.def Info: app_sc_main.png  used on input line 130.
+(pdftex.def)             Requested size: 130.08731pt x 260.16078pt.
 <app_sc_management.png, id=173, 1084.05pt x 2168.1pt>
 File: app_sc_management.png Graphic file (type png)
 <use app_sc_management.png>
-Package pdftex.def Info: app_sc_management.png  used on input line 133.
-(pdftex.def)             Requested size: 65.04366pt x 130.08038pt.
+Package pdftex.def Info: app_sc_management.png  used on input line 134.
+(pdftex.def)             Requested size: 130.08731pt x 260.16078pt.
 <app_sc_token_revoke.png, id=174, 1084.05pt x 2168.1pt>
 File: app_sc_token_revoke.png Graphic file (type png)
 <use app_sc_token_revoke.png>
 Package pdftex.def Info: app_sc_token_revoke.png  used on input line 138.
-(pdftex.def)             Requested size: 65.04366pt x 130.08038pt.
- [27 <./app_sc_main.png> <./app_sc_management.png> <./app_sc_token_revoke.png>]
- [28]
+(pdftex.def)             Requested size: 130.08731pt x 260.16078pt.
+ [27] [28 <./app_sc_main.png> <./app_sc_management.png> <./app_sc_token_revoke.
+png>]
 <plot1.pdf, id=181, 377.64214pt x 264.6255pt>
 File: plot1.pdf Graphic file (type pdf)
 <use plot1.pdf>
-Package pdftex.def Info: plot1.pdf  used on input line 168.
+Package pdftex.def Info: plot1.pdf  used on input line 166.
 (pdftex.def)             Requested size: 433.62pt x 303.86067pt.
 <plot2.pdf, id=182, 377.64214pt x 249.44379pt>
 File: plot2.pdf Graphic file (type pdf)
 <use plot2.pdf>
-Package pdftex.def Info: plot2.pdf  used on input line 174.
+Package pdftex.def Info: plot2.pdf  used on input line 172.
 (pdftex.def)             Requested size: 433.62pt x 286.42802pt.
- [29] [30 <./plot1.pdf>] [31 <./plot2.pdf>]
-<notification_latency_withTor.pdf, id=263, 433.62pt x 289.08pt>
+ [29] [30 <./plot1.pdf>] [31 <./plot2.pdf>] [32]
+<notification_latency_withTor.pdf, id=266, 433.62pt x 289.08pt>
 File: notification_latency_withTor.pdf Graphic file (type pdf)
 <use notification_latency_withTor.pdf>
 Package pdftex.def Info: notification_latency_withTor.pdf  used on input line 2
-04.
+02.
 (pdftex.def)             Requested size: 433.62pt x 289.09251pt.
- [32]
+
 [33 <./notification_latency_withTor.pdf>]
 <plot_push_tor_vs_vanilla.pdf, id=298, 433.62pt x 289.08pt>
 File: plot_push_tor_vs_vanilla.pdf Graphic file (type pdf)
 <use plot_push_tor_vs_vanilla.pdf>
-Package pdftex.def Info: plot_push_tor_vs_vanilla.pdf  used on input line 218.
+Package pdftex.def Info: plot_push_tor_vs_vanilla.pdf  used on input line 216.
 (pdftex.def)             Requested size: 433.62pt x 289.09251pt.
-) (./chapters/discussion.tex [34 <./plot_push_tor_vs_vanilla.pdf>]
+) (./chapters/discussion.tex [34]
+[35 <./plot_push_tor_vs_vanilla.pdf>]
 Chapter 5.
-[35
+[36
 
-] [36]) (./chapters/conclusion.tex [37] [38]
+] [37]) (./chapters/conclusion.tex [38] [39]
 Chapter 6.
-) [39
+) [40
 
 ]
 Appendix A.
-[40
+[41
 
 ]
 Appendix B.
-(./template.bbl [41
+(./template.bbl [42
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 4
@@ -417,7 +418,7 @@ LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 4
  (d:/texlive/2020/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-[42
+[43
 
 ]
 Underfull \hbox (badness 1418) in paragraph at lines 200--206
@@ -425,7 +426,7 @@ Underfull \hbox (badness 1418) in paragraph at lines 200--206
 ndriy
  []
 
-[43]
+[44]
 Underfull \hbox (badness 2922) in paragraph at lines 259--269
 []\T1/cmr/m/n/12 Selena Larson. 2017.  FDA con-firms that St. Jude's car-diac d
 evices
@@ -437,18 +438,18 @@ Underfull \hbox (badness 3646) in paragraph at lines 259--269
  / 2017 / 01 / 09 / technology /
  []
 
-[44] [45])
+[45] [46])
 ***
 *** Note!
 *** Because this document has a table of contents,
 *** you must run LaTeX TWICE to get it to print correctly.
 ***
-[46] (./template.aux) ) 
+[47] (./template.aux) ) 
 Here is how much of TeX's memory you used:
- 4686 strings out of 480471
- 67603 string characters out of 5903300
- 303734 words of memory out of 5000000
- 20631 multiletter control sequences out of 15000+600000
+ 4688 strings out of 480471
+ 67625 string characters out of 5903300
+ 303803 words of memory out of 5000000
+ 20633 multiletter control sequences out of 15000+600000
  541222 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,7n,47p,1023b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -462,10 +463,10 @@ type1/public/cm-super/sfcc1200.pfb><d:/texlive/2020/texmf-dist/fonts/type1/publ
 ic/cm-super/sfrm1200.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-supe
 r/sfti1200.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt1200
 .pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfxc1200.pfb>
-Output written on template.pdf (54 pages, 1126714 bytes).
+Output written on template.pdf (55 pages, 1129855 bytes).
 PDF statistics:
- 406 PDF objects out of 1000 (max. 8388607)
- 202 compressed objects within 3 object streams
+ 419 PDF objects out of 1000 (max. 8388607)
+ 205 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

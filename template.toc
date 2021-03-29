@@ -36,26 +36,26 @@
 \contentsline {subsection}{\numberline {4.6.1}Registration}{26}%
 \contentsline {subsection}{\numberline {4.6.2}Media player}{26}%
 \contentsline {subsection}{\numberline {4.6.3}Two-way communication}{27}%
-\contentsline {subsection}{\numberline {4.6.4}Management}{27}%
-\contentsline {section}{\numberline {4.7}Experimental study}{28}%
+\contentsline {subsection}{\numberline {4.6.4}Device management}{27}%
+\contentsline {section}{\numberline {4.7}Performance Evaluation}{27}%
 \contentsline {subsection}{\numberline {4.7.1}Streaming latency}{28}%
-\contentsline {subsection}{\numberline {4.7.2}Energy consumption}{29}%
+\contentsline {subsection}{\numberline {4.7.2}Energy consumption}{32}%
 \contentsline {subsection}{\numberline {4.7.3}Bandwidth}{32}%
 \contentsline {subsection}{\numberline {4.7.4}Video and audio quality}{32}%
 \contentsline {subsection}{\numberline {4.7.5}Notification latency}{32}%
-\contentsline {subsection}{\numberline {4.7.6}The cost of using Tor}{32}%
-\contentsline {paragraph}{Streaming latency}{32}%
+\contentsline {subsection}{\numberline {4.7.6}The cost of using Tor}{33}%
+\contentsline {paragraph}{Streaming latency}{34}%
 \contentsline {paragraph}{Notification latency}{34}%
-\contentsline {chapter}{\numberline {5}Discussion and Open Questions}{35}%
-\contentsline {section}{\numberline {5.1}Traffic cover}{35}%
-\contentsline {section}{\numberline {5.2}Decentralized push notification}{35}%
-\contentsline {section}{\numberline {5.3}Storage}{36}%
-\contentsline {section}{\numberline {5.4}IoT devices in untrusted network}{37}%
-\contentsline {section}{\numberline {5.5}IoT-to-IoT communication}{38}%
-\contentsline {chapter}{\numberline {6}Conclusion}{39}%
+\contentsline {chapter}{\numberline {5}Discussion and Open Questions}{36}%
+\contentsline {section}{\numberline {5.1}Traffic cover}{36}%
+\contentsline {section}{\numberline {5.2}Decentralized push notification}{36}%
+\contentsline {section}{\numberline {5.3}Storage}{37}%
+\contentsline {section}{\numberline {5.4}IoT devices in untrusted network}{38}%
+\contentsline {section}{\numberline {5.5}IoT-to-IoT communication}{39}%
+\contentsline {chapter}{\numberline {6}Conclusion}{40}%
 \par \vspace {6\p@ }
 \noindent {\sc Appendix}
 \vspace {-3\p@ }
-\contentsline {chapter}{\numberline {A}First Appendix}{40}%
-\contentsline {chapter}{\numberline {B}Second Appendix}{41}%
-\contentsline {pseudochapter}{\sc Bibliography}{42}%
+\contentsline {chapter}{\numberline {A}First Appendix}{41}%
+\contentsline {chapter}{\numberline {B}Second Appendix}{42}%
+\contentsline {pseudochapter}{\sc Bibliography}{43}%
