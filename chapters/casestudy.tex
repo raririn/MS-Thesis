@@ -110,7 +110,7 @@ We implemented an Android App to pair with the video doorbell service. The app r
 \label{sec:registration}
 For registration, the client sends JSON-formatted data in an HTTP POST request to port 8080 of the server (running on the doorbell device). This occurs over WiFi in the user's home. The server will then respond with another JSON-formatted data, including the seed (randomly generated 16-bit integer) for calculating the secret keys, the onion hostname for accessing the video service, and the onion authentication cookie. The app will then automatically send a configuration string (including the authentication cookie) required by Orbot to the user’s clipboard for her to set up the service quickly. 
 
-\textit{Fig. \ref{fig:app_sc_main}} shows the main (registration) GUI of the app.
+\textit{Fig. \ref{fig:app_sc}} shows the main (registration) GUI of the app.
 
 
 \subsection{Media player} The app has the VLC player integrated for video streaming. This allows users to see what is occurring at their doorstep. Working with Orbot, the media player streams the video through the onion network, which prevents adversaries from eavesdropping on the transmitted video. The use of Snowflake (as described in Section \ref{sec:netarch} also disguises the video stream.

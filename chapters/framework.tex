@@ -38,14 +38,16 @@ In the following, we discuss potential attackers, their capabilities, and our sy
 \subsection{Actors and capabilities}
 We consider the following two types of adversaries:
 
-\textbf{In-network adversaries} are adversaries who have access to the users' home network. Such adversaries may eavesdrop and identify traffic from particular devices in the user's home, including the doorbell device and router.
+\textbf{In-network adversaries} are adversaries who have access to the users' home network. Such adversaries may eavesdrop and identify traffic from particular devices in the user's home, including the IoT device and router.
 
 
 \textbf{Out of network but on-path adversaries} are adversaries located outside the user's home network (and have no access to it). Such adversaries cannot differentiate between devices in the network but can eavesdrop, analyze, and modify the user’s traffic in aggregate. 
 
-Furthermore, the adversary can obtain and analyze IoT devices and client devices. They may inspect programs and source code and use their copy of client apps to attempt to access the user's device. Also, they may have access to the system's adapted push notification service, which means they can eavesdrop and/or modify the packets or send packets to the user's phone at will.
+Furthermore, the adversary can obtain and analyze IoT devices and client devices. They may inspect programs and source code and use their copy of client apps to attempt to access the user's device.
 
 \textbf{Service adversaries} are adversaries running third-party services (e.g. push notification services) adopted by the IoT system. Such operator should not be able to enumerate all IoT users or know when all events occurred.
+
+They may have access to the system's adapted push notification service, which means they can eavesdrop and/or modify the packets or send packets to the user's phone at will.
 \subsection{Security and Privacy Guarantees}
 
 Our framework offers the following security and privacy guarantees:
@@ -55,7 +57,7 @@ Our framework offers the following security and privacy guarantees:
 	\item \textbf{Anonymity on both sides}: The communication between the client and home IoT device should be anonymized. \textit{Out-of-network adversaries} should  get identical information (including IP address and physical address) of neither the client nor IoT device.
 	\item \textbf{End-to-end security}: The traffic between the client and home IoT devices should be end-to-end encrypted. Neither \textit{In-network adversaries} nor \textit{Out-of-network adversaries} should be able to inspect into and read the context in the packets transmitted.
 	\item \textbf{Attack resistance}: The attack surface against the IoT devices should be small (e.g., resists DoS attacks).
-	\item \textbf{Resistance to traffic analysis}: All types of adversaries should not be able to obtain the user's sensitive information (including but not limited to use history of the IoT device, time of events) by analyzing the encrypted traffic.
+	\item \textbf{Resistance to traffic analysis}: \textit{Out-of-network adversaries} and \textit{Service adversaries} should not be able to obtain the user's sensitive information (including but not limited to use history of the IoT device, time of events) by analyzing the encrypted traffic.
 \end{itemize}
 
 \section{Features}
