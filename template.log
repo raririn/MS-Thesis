@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.7.14)  11 APR 2021 17:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.7.14)  19 APR 2021 10:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -290,7 +290,7 @@ Chapter 3.
 
 pdfTeX warning: pdflatex.exe (file ./comm_model_1.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<comm_model_1.pdf, id=85, 794.97pt x 614.295pt>
+<comm_model_1.pdf, id=81, 794.97pt x 614.295pt>
 File: comm_model_1.pdf Graphic file (type pdf)
 <use comm_model_1.pdf>
 Package pdftex.def Info: comm_model_1.pdf  used on input line 17.
@@ -299,7 +299,7 @@ Package pdftex.def Info: comm_model_1.pdf  used on input line 17.
 
 pdfTeX warning: pdflatex.exe (file ./comm_model_2.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<comm_model_2.pdf, id=86, 794.97pt x 614.295pt>
+<comm_model_2.pdf, id=82, 794.97pt x 614.295pt>
 File: comm_model_2.pdf Graphic file (type pdf)
 <use comm_model_2.pdf>
 Package pdftex.def Info: comm_model_2.pdf  used on input line 22.
@@ -317,66 +317,66 @@ Chapter 4.
 [18
 
 ]
-<Use_case_diagram.png, id=119, 1425.325pt x 1225.57875pt>
+<Use_case_diagram.png, id=115, 1425.325pt x 1225.57875pt>
 File: Use_case_diagram.png Graphic file (type png)
 <use Use_case_diagram.png>
 Package pdftex.def Info: Use_case_diagram.png  used on input line 23.
 (pdftex.def)             Requested size: 433.62pt x 372.83789pt.
-<architecture.png, id=121, 1267.73625pt x 490.83376pt>
+<architecture.png, id=117, 1267.73625pt x 490.83376pt>
 File: architecture.png Graphic file (type png)
 <use architecture.png>
 Package pdftex.def Info: architecture.png  used on input line 33.
 (pdftex.def)             Requested size: 433.62pt x 167.88486pt.
  [19] [20 <./Use_case_diagram.png> <./architecture.png>] [21]
-<Sequence_diagram_playvideo.pdf, id=134, 421.575pt x 196.735pt>
+<Sequence_diagram_playvideo.pdf, id=130, 421.575pt x 196.735pt>
 File: Sequence_diagram_playvideo.pdf Graphic file (type pdf)
 <use Sequence_diagram_playvideo.pdf>
 Package pdftex.def Info: Sequence_diagram_playvideo.pdf  used on input line 52.
 
 (pdftex.def)             Requested size: 433.62pt x 202.3601pt.
-<Sequence_diagram_push.pdf, id=135, 421.575pt x 184.69pt>
+<Sequence_diagram_push.pdf, id=131, 421.575pt x 184.69pt>
 File: Sequence_diagram_push.pdf Graphic file (type pdf)
 <use Sequence_diagram_push.pdf>
 Package pdftex.def Info: Sequence_diagram_push.pdf  used on input line 57.
 (pdftex.def)             Requested size: 433.62pt x 189.97072pt.
  [22 <./Sequence_diagram_playvideo.pdf>] [23 <./Sequence_diagram_push.pdf>] [24
 ]
-<fig_url.jpg, id=156, 1023.825pt x 91.84312pt>
+<fig_url.jpg, id=152, 1023.825pt x 91.84312pt>
 File: fig_url.jpg Graphic file (type jpg)
 <use fig_url.jpg>
 Package pdftex.def Info: fig_url.jpg  used on input line 99.
 (pdftex.def)             Requested size: 433.62pt x 38.89755pt.
  [25]
 [26 <./fig_url.jpg>]
-<app_sc_main.png, id=166, 1084.05pt x 2168.1pt>
+<app_sc_main.png, id=162, 1084.05pt x 2168.1pt>
 File: app_sc_main.png Graphic file (type png)
 <use app_sc_main.png>
 Package pdftex.def Info: app_sc_main.png  used on input line 129.
 (pdftex.def)             Requested size: 130.08731pt x 260.16078pt.
-<app_sc_management.png, id=167, 1084.05pt x 2168.1pt>
+<app_sc_management.png, id=163, 1084.05pt x 2168.1pt>
 File: app_sc_management.png Graphic file (type png)
 <use app_sc_management.png>
 Package pdftex.def Info: app_sc_management.png  used on input line 132.
 (pdftex.def)             Requested size: 130.08731pt x 260.16078pt.
-<app_sc_token_revoke.png, id=168, 1084.05pt x 2168.1pt>
+<app_sc_token_revoke.png, id=164, 1084.05pt x 2168.1pt>
 File: app_sc_token_revoke.png Graphic file (type png)
 <use app_sc_token_revoke.png>
 Package pdftex.def Info: app_sc_token_revoke.png  used on input line 135.
 (pdftex.def)             Requested size: 130.08731pt x 260.16078pt.
  [27] [28 <./app_sc_main.png> <./app_sc_management.png> <./app_sc_token_revoke.
 png>]
-<plot1.pdf, id=175, 377.64214pt x 264.6255pt>
+<plot1.pdf, id=171, 377.64214pt x 264.6255pt>
 File: plot1.pdf Graphic file (type pdf)
 <use plot1.pdf>
 Package pdftex.def Info: plot1.pdf  used on input line 164.
 (pdftex.def)             Requested size: 433.62pt x 303.86067pt.
-<plot2.pdf, id=176, 377.64214pt x 249.44379pt>
+<plot2.pdf, id=172, 377.64214pt x 249.44379pt>
 File: plot2.pdf Graphic file (type pdf)
 <use plot2.pdf>
 Package pdftex.def Info: plot2.pdf  used on input line 170.
 (pdftex.def)             Requested size: 433.62pt x 286.42802pt.
  [29] [30 <./plot1.pdf>] [31 <./plot2.pdf>] [32]
-<notification_latency_withTor.pdf, id=260, 433.62pt x 289.08pt>
+<notification_latency_withTor.pdf, id=256, 433.62pt x 289.08pt>
 File: notification_latency_withTor.pdf Graphic file (type pdf)
 <use notification_latency_withTor.pdf>
 Package pdftex.def Info: notification_latency_withTor.pdf  used on input line 2
@@ -384,7 +384,7 @@ Package pdftex.def Info: notification_latency_withTor.pdf  used on input line 2
 (pdftex.def)             Requested size: 433.62pt x 289.09251pt.
 
 [33 <./notification_latency_withTor.pdf>]
-<plot_push_tor_vs_vanilla.pdf, id=292, 433.62pt x 289.08pt>
+<plot_push_tor_vs_vanilla.pdf, id=288, 433.62pt x 289.08pt>
 File: plot_push_tor_vs_vanilla.pdf Graphic file (type pdf)
 <use plot_push_tor_vs_vanilla.pdf>
 Package pdftex.def Info: plot_push_tor_vs_vanilla.pdf  used on input line 214.
@@ -447,9 +447,9 @@ type1/public/cm-super/sfcc1200.pfb><d:/texlive/2020/texmf-dist/fonts/type1/publ
 ic/cm-super/sfrm1200.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-supe
 r/sfti1200.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt1200
 .pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfxc1200.pfb>
-Output written on template.pdf (51 pages, 1129630 bytes).
+Output written on template.pdf (51 pages, 1144618 bytes).
 PDF statistics:
- 405 PDF objects out of 1000 (max. 8388607)
+ 401 PDF objects out of 1000 (max. 8388607)
  196 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)

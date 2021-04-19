@@ -54,7 +54,7 @@ Our framework offers the following security and privacy guarantees:
 
 \begin{itemize}
 	\item \textbf{Strong authentication}: The device should only be accessible to authorized clients. \textit{Out-of-network adversaries} should not have access to the data (including the history of usage and data captures by the sensor) regardless of the measurements they take.
-	\item \textbf{Anonymity on both sides}: The communication between the client and home IoT device should be anonymized. \textit{Out-of-network adversaries} should  get identical information (including IP address and physical address) of neither the client nor IoT device.
+	\item \textbf{Anonymity on both sides}: The communication between the client and home IoT device should be anonymized. \textit{Out-of-network adversaries} should get identical information (including IP address and physical address) of neither the client nor IoT device.
 	\item \textbf{End-to-end security}: The traffic between the client and home IoT devices should be end-to-end encrypted. Neither \textit{In-network adversaries} nor \textit{Out-of-network adversaries} should be able to inspect into and read the context in the packets transmitted.
 	\item \textbf{Attack resistance}: The attack surface against the IoT devices should be small (e.g., resists DoS attacks).
 	\item \textbf{Resistance to traffic analysis}: \textit{Out-of-network adversaries} and \textit{Service adversaries} should not be able to obtain the user's sensitive information (including but not limited to use history of the IoT device, time of events) by analyzing the encrypted traffic.
@@ -73,7 +73,7 @@ In addition to the security guarantees, the system should have a few usability f
 
 
 \section{Constructing a Privacy-Preserving Framework for IoT Devices.}
-To achieve the security guarantees described above, we make the approach to introducing the Tor network in the communication between home IoT devices and end-user devices. The Tor network, a common approach for achieving anonymity\cite{dingledine2004tor}, has the following features, which makes it a good choice for privacy-preserving systems:
+To achieve the security guarantees described above, we make the approach to introduce the Tor network in the communication between home IoT devices and end-user devices. The Tor network, a common approach for achieving anonymity\cite{dingledine2004tor}, has the following features, which makes it a good choice for privacy-preserving systems:
 
 
 \Paragraph{Achieving strong authentication and end-to-end confidentiality.} This task is non-trivial since IoT devices have limited interfaces. The framework tackles this by enabling a pairing phase in which smartphone devices can pair with the IoT device and exchange key material. The pairing phase must be manually initiated on the IoT device, and should be resistant to man-in-the-middle attacks. One instantiation of this (see next Chapter) is to have the IoT device set up an mDNS service, which makes it possible for a smartphone in the same network to connect to share key material. Once key material is shared, all data sent and received by both the IoT device and the smartphone application should be end-to-end encrypted using standard protocols (e.g. TLS). Additional methods for enabling strong authentication are described below (see "Attack resistance").
