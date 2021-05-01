@@ -1,4 +1,4 @@
-\chapter{Case-study: A privacy-Preserving Video Doorbell}
+\chapter{Case Study: A Privacy-preserving Video Doorbell}
 \label{sec:case_study}
 This chapter presents a case study that focuses on the design and implementation of a specific type of IoT device - an Internet-enabled video doorbell using our privacy-preserving framework. We assume the communication model to be the user-to-IoT model, that is,  the IoT device (video doorbell) is located in the user’s home network and communicates (potentially indirectly) with the end-user device (smartphone). The goal of this case-study is to support a feature-rich IoT offering while providing strong security and privacy properties.
 
@@ -134,12 +134,12 @@ The doorbell serves a webpage for the user to manipulate device settings, includ
 	\begin{minipage}[t]{0.3\linewidth}
 		\includegraphics[width=\linewidth]{app_sc_token_revoke.png}
 	\end{minipage}	
-	\caption{Android App GUI Examples}
+	\caption{Android app GUI examples}
 	\label{fig:app_sc}
 \end{figure}
 
 
-\section{Performance Evaluation}
+\section{Performance evaluation}
 In this section, we would like to evaluate the performance of our system by analyzing the following factors:
 \begin{itemize}
 	\item Streaming latency;
@@ -198,20 +198,20 @@ Finally, we measure the cost of using Tor. By its nature, Tor adds latency to th
 
 \begin{figure}
 	\includegraphics[width=\linewidth]{notification_latency_withTor.pdf}
-	\caption{Latency of notification - with Tor}
+	\caption{Latency of notification: with Tor}
 	\label{fig:notificationlatency_wTor}
 \end{figure}
 
-\Paragraph{Streaming latency} 
+\Paragraph{Streaming latency.} 
 
 We described the streaming latency of our system in Section \ref{subsec:streaming_latency}. For a simple comparison, launching the streaming takes 2.240 seconds on average.
 
-\Paragraph{Notification latency}
+\Paragraph{Notification latency.}
 
 As we described in Section \ref{subsec:notification_latency}, the latency of push notification with Tor is 0.478 seconds on average. We further conduct experiment where Tor is not in the middle. \textit{Fig. \ref{fig:notificationlatency_wTor_vs_vanilla}} shows the difference of the service with Tor ("with-Tor") between that without Tor ("vanilla"). The dotted green line denotes for the latency of vanilla service, and the blue full line denotes for the latency of with-Tor service. The median of with-Tor service is roughly twice as the median of vanilla service.
 
 \begin{figure}
 	\includegraphics[width=\linewidth]{plot_push_tor_vs_vanilla.pdf}
-	\caption{Latency of notification - with-Tor vs. vanilla}
+	\caption{Latency of notification: with Tor vs. vanilla}
 	\label{fig:notificationlatency_wTor_vs_vanilla}
 \end{figure}

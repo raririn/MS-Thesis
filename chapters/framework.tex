@@ -1,4 +1,4 @@
-\chapter{A privacy-preserving framework for IoT devices}
+\chapter{A Privacy-preserving Framework for IoT Devices}
 
 In this chapter, we present our primary contribution, a privacy-preserving framework for generalized IoT devices. We propose communication and attacker models and state security and usability features of the framework.
 
@@ -13,16 +13,16 @@ It is worth mentioning that there exists another communication model for IoT sys
 
 
 \begin{figure}
-	\begin{minipage}[t]{0.5\linewidth}
-		\includegraphics[width=\linewidth]{comm_model_1.pdf}
+	\centering
+		\includegraphics[width=0.6\linewidth]{comm_model_1.pdf}
 		\caption{Communication model: IoT-user}
 		\label{fig:cm1}
-	\end{minipage}
-	\begin{minipage}[t]{0.5\linewidth}
-		\includegraphics[width=\linewidth]{comm_model_2.pdf}
+\end{figure}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.6\linewidth]{comm_model_2.pdf}
 		\caption{Communication model: IoT-IoT}
 		\label{fig:cm2}
-	\end{minipage}
 \end{figure}
 
 \section{Threat model}
@@ -48,7 +48,7 @@ Furthermore, the adversary can obtain and analyze IoT devices and client devices
 \textbf{Service adversaries} are adversaries running third-party services (e.g. push notification services) adopted by the IoT system. Such operator should not be able to enumerate all IoT users or know when all events occurred.
 
 They may have access to the system's adapted push notification service, which means they can eavesdrop and/or modify the packets or send packets to the user's phone at will.
-\subsection{Security and Privacy Guarantees}
+\subsection{Security and privacy guarantees}
 
 Our framework offers the following security and privacy guarantees:
 
@@ -72,7 +72,7 @@ In addition to the security guarantees, the system should have a few usability f
 
 
 
-\section{Constructing a Privacy-Preserving Framework for IoT Devices.}
+\section{Constructing a privacy-preserving framework for IoT devices.}
 To achieve the security guarantees described above, we make the approach to introduce the Tor network in the communication between home IoT devices and end-user devices. The Tor network, a common approach for achieving anonymity\cite{dingledine2004tor}, has the following features, which makes it a good choice for privacy-preserving systems:
 
 
