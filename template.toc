@@ -20,10 +20,10 @@
 \contentsline {subsection}{\numberline {3.2.2}Security and privacy guarantees}{14}%
 \contentsline {section}{\numberline {3.3}Features}{15}%
 \contentsline {section}{\numberline {3.4}Constructing a privacy-preserving framework for IoT devices.}{15}%
-\contentsline {paragraph}{Achieving strong authentication and end-to-end confidentiality.}{16}%
-\contentsline {paragraph}{Resistance to traffic analysis.}{16}%
-\contentsline {paragraph}{Attack resistance.}{17}%
-\contentsline {paragraph}{Resistance to enumeration.}{17}%
+\contentsline {subsection}{\numberline {3.4.1}Achieving strong authentication and end-to-end confidentiality.}{16}%
+\contentsline {subsection}{\numberline {3.4.2}Resistance to traffic analysis.}{16}%
+\contentsline {subsection}{\numberline {3.4.3}Attack resistance.}{17}%
+\contentsline {subsection}{\numberline {3.4.4}Resistance to enumeration.}{17}%
 \contentsline {chapter}{\numberline {4}Case Study: A Privacy-preserving Video Doorbell}{18}%
 \contentsline {section}{\numberline {4.1}Features and system design}{18}%
 \contentsline {subsection}{\numberline {4.1.1}Features}{18}%
@@ -47,11 +47,11 @@
 \contentsline {subsection}{\numberline {4.7.6}The cost of using Tor}{33}%
 \contentsline {paragraph}{Streaming latency.}{34}%
 \contentsline {paragraph}{Notification latency.}{34}%
-\contentsline {chapter}{\numberline {5}Discussion and Open Questions}{36}%
-\contentsline {section}{\numberline {5.1}Traffic cover}{36}%
-\contentsline {section}{\numberline {5.2}Decentralized push notification}{36}%
-\contentsline {section}{\numberline {5.3}Storage}{38}%
-\contentsline {section}{\numberline {5.4}IoT devices in untrusted network}{38}%
-\contentsline {section}{\numberline {5.5}IoT-to-IoT communication}{39}%
-\contentsline {chapter}{\numberline {6}Conclusion}{40}%
-\contentsline {pseudochapter}{\sc Bibliography}{41}%
+\contentsline {chapter}{\numberline {5}Discussion and Open Questions}{35}%
+\contentsline {section}{\numberline {5.1}Cover traffic}{35}%
+\contentsline {section}{\numberline {5.2}Decentralized push notification}{35}%
+\contentsline {section}{\numberline {5.3}Storage}{37}%
+\contentsline {section}{\numberline {5.4}IoT devices in untrusted networks}{37}%
+\contentsline {section}{\numberline {5.5}IoT-to-IoT communication}{38}%
+\contentsline {chapter}{\numberline {6}Conclusion}{39}%
+\contentsline {pseudochapter}{\sc Bibliography}{40}%

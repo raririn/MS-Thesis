@@ -16,7 +16,7 @@ Fabian \textit{et al.} \cite{fabian2014privacy} introduce a privacy-preserving P
 
 Apthorpe \textit{et al.} \cite{apthorpe2017smart} review privacy vulnerabilities in encrypted IoT traffic of four commercial IoT services. In addition, they develop a strategy to infer consumer behavior from rates of IoT traffic, which enables a passive network observer to retrieve information even when the traffic is encrypted. In this thesis, we use two strategies to avoid such traffic analysis. Firstly, when possible, we use Tor to obfuscate the network location and traffic of IoT devices. Secondly, we cover the traffic to make traffic analysis more difficult.
 
-There are also work focusing on the security of pairing devices. Au \cite{au2012pscout} perform an analysis of the permission of Android, and propose a tool to analyze the security issues of permission specification. Egele \cite{egele2013empirical} develop program analysis techniques to automatically check programs on cryptographic misuse (whether the cryptographic APIs provides typical cryptographic notions of security, e.g. IND-CPA). In Section \ref{sec:case_study} of this thesis, we implement an example Android app, and strictly follow the correct usage of permissions and cryptographic functions to prevent security issues.
+There are also also exists work that focuses on the security of pairing devices. Au \cite{au2012pscout} perform an analysis of the permission of Android, and propose a tool to analyze the security issues of permission specification. Egele \cite{egele2013empirical} develop program analysis techniques to automatically check programs on cryptographic misuse (whether the cryptographic APIs provide typical cryptographic notions of security, e.g. IND-CPA). In Section \ref{sec:case_study} of this thesis, we implement an example Android app, and strictly follow the correct usage of permissions and cryptographic functions to prevent security issues.
 
 
 
@@ -30,13 +30,13 @@ Focusing on enhanced security communication for IoT addressing and connectivity,
 
 \section{Background on Tor}
 \label{sec:torbackground}
-The Tor network, which was developed in the 1990s and deployed in 2002, is an overlay protocol to route traffic through multiple servers and encrypt it each step of the way (\cite{torproject}, \cite{chaabane2010digging}). By directing internet traffic through the onion network, which consists of several thousand volunteer overlays, Tor conceals users' locations and usage from adversaries.
+The Tor network, which was developed in the 1990s and deployed in 2002, is an overlay protocol to route traffic through multiple servers and encrypt it each step of the way \cite{torproject}, \cite{chaabane2010digging}. By directing Internet traffic through the onion network, which consists of several thousand volunteer overlays, Tor conceals users' locations and usage from adversaries.
 
 Tor allows the creation of \textit{Hidden Services}, which conceal the network locations of Internet services. Such services are only reachable within the onion network by users running the Tor client. Hidden services are identified by \textit{.onion} addresses.
 
-Several features of Tor make it attractive for privacy-preserving IoT communications. Because the nature of Tor requires all peers to be connected, Tor maintains the connections after they are initiated to build the circuits. As a side-effect, all peers can receive data regardless of whether they are behind a firewall or NAT. \textit{Fig. \ref{fig:natpiercing}} shows the network structure of a IoT system adopting the onion network. In such a system, both the IoT device and the end-user device keeps an outgoing TCP connection with onion relays, and thus does not require a static IP address.
+Several features of Tor make it attractive for privacy-preserving IoT communications. Because the nature of Tor requires all peers to be connected, Tor maintains the connections after they are initiated to build the circuits. As a side-effect, all peers can receive data regardless of whether they are behind a firewall or NAT. \textit{Fig. \ref{fig:natpiercing}} shows the network structure of an IoT system adopting the onion network. In such a system, both the IoT device and the end-user device keep an outgoing TCP connection with onion relays, and thus does not require a static IP address.
 
-These features, including providing NAT piercing and prevention of DoS attacks, are essential for home IoT devices (as home IoT devices are usually located in typical home networks, which tend to be behind NAT). Furthermore, the system of Tor is actively maintained and improved.
+These features, including providing NAT piercing and prevention of DoS attacks, are essential for home IoT devices (as home IoT devices are usually located in typical home networks, which tend to be behind NAT). Furthermore, the Tor software and network are actively maintained and improved.
 
 \begin{figure}
 	\includegraphics[width=\linewidth]{natpiercing.pdf}

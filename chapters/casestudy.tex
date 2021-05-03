@@ -1,9 +1,9 @@
 \chapter{Case Study: A Privacy-preserving Video Doorbell}
 \label{sec:case_study}
-This chapter presents a case study that focuses on the design and implementation of a specific type of IoT device - an Internet-enabled video doorbell using our privacy-preserving framework. We assume the communication model to be the user-to-IoT model, that is,  the IoT device (video doorbell) is located in the user’s home network and communicates (potentially indirectly) with the end-user device (smartphone). The goal of this case-study is to support a feature-rich IoT offering while providing strong security and privacy properties.
+This chapter presents a case study that focuses on the design and implementation of a specific type of IoT device - an Internet-enabled video doorbell using our privacy-preserving framework. We assume the communication model to be the user-to-IoT model, that is, the IoT device (video doorbell) is located in the user’s home network and communicates (potentially indirectly) with the end-user device (smartphone). The goal of this case-study is to support a feature-rich IoT offering while providing strong security and privacy properties.
 
 \section{Features and system design}
-In addition to the security guarantees described in the last chapter, video doorbell systems have unique features. Here we present the design of the specific system.
+In addition to the security guarantees described in the last chapter, video doorbell systems have unique features. Here, we present the details of our design.
 
 \subsection{Features}
 We consider there should be five prominent use cases in the system:
@@ -27,7 +27,7 @@ We describe the specifics of our implementation in more detail below. At a high-
 
 \subsection{Network architecture}
 \label{sec:netarch}
-\textit{Fig. \ref{fig:architecture}} shows the network architecture of the system. Both the client and server communicate using Tor to prevent an adversary from trivially identifying the devices' traffic. Additionally, we configure Tor on the doorbell side to use Snowflake pluggable transport. Snowflake is an add-on for Tor that tunnels Tor traffic through WebRTC \cite{macmillan2020evaluating}, a protocol that is popular for videoconferencing (e.g. Google's Hangouts or Jitsi). By using Snowflake, an adversary that monitors the communication from the user's home cannot easily identify the use or presence of the IoT doorbell, since its traffic is disguised as WebRTC flows.
+\textit{Fig. \ref{fig:architecture}} shows the network architecture of the system. Both the client and server communicate using Tor to prevent an adversary from trivially identifying the devices' traffic. Additionally, we configure Tor on the doorbell side to use the Snowflake pluggable transport. Snowflake is an add-on for Tor that tunnels Tor traffic through WebRTC \cite{macmillan2020evaluating}, a protocol that is popular for videoconferencing (e.g. Google's Hangouts or Jitsi). By using Snowflake, an adversary that monitors the communication from the user's home cannot easily identify the use or presence of the IoT doorbell, since its traffic is disguised as WebRTC flows.
 
 \begin{figure}
 	\includegraphics[width=\linewidth]{architecture.png}
@@ -37,7 +37,7 @@ We describe the specifics of our implementation in more detail below. At a high-
 
 \subsection{Operation}
 
-\textbf{Registration.} The very first stage of using the system is the registration process. To have their devices registered on the doorbell, the users should first connect to the same wireless network with the doorbell. Then the app should allow the user to register easily by searching the doorbell using mDNS (Multicast DNS, also known as mDNS, is a protocol resolves hostnames to IP addresses in small networks, like local home networks, which do not include a local name server.). During the registration process, the smartphone app performs a key exchange with the doorbell and receives randomly generated credentials for the user to set up in Tor. We use Orbot, an open-source implementation of Tor, on the smartphone. Currently, our implementation supports Android, although providing support for iOS should be straightforward.
+\textbf{Registration.} The very first stage of using the system is the registration process. To have their devices registered on the doorbell, the users should first connect to the same wireless network with the doorbell. Then the app should allow the user to register easily by searching the doorbell using mDNS (Multicast DNS, also known as mDNS, is a protocol that resolves hostnames to IP addresses in small networks, like local home networks, which do not include a local name server.). During the registration process, the smartphone app performs a key exchange with the doorbell and receives randomly generated credentials for the user to set up in Tor. We use Orbot, an open-source implementation of Tor, on the smartphone. Currently, our implementation supports Android, although providing support for iOS should be straightforward.
 
 \textbf{Playing video and authentication.} Our IoT doorbell allows the user to observe activities that occur at their doorstep by activating the doorbell's video camera and streaming the video to the smartphone app. As soon as the user presses the PLAY button in the app, it will work with Orbot and send an RTMP PLAY request to the video server running on the doorbell. The video server will then forward an authentication request (in the form of an HTTP GET request) to the authentication server (running on another port on the doorbell). The server should serve video to the user through Tor if the authentication succeeds (i.e., the app is registered and has not been revoked) and shut down the connection otherwise.
 \textit{Fig. \ref{fig:playvideo}} shows the flow of playing video and authentication. As described above, there are five components in the flow: the user (\textit{user}), the smartphone app (\textit{app}), the Orbot app (\textit{Orbot}), the video server (\textit{videoserver}) and the authentication server (\textit{authserver}).
@@ -61,7 +61,7 @@ By clicking on the notification message on her phone, the user should be able to
 
 
 \section{Face detection}
-A core feature of our privacy-preserving IoT framework is the avoidance of points of centralization. Although many cloud-based face detection services exist (e.g. Google's Firebase MLKit), we restrict our IoT doorbell to use on-device face detection. (We also remark that our devices does not perform face textit{recognition}, which is a seperate task that attempts to identify the individual who the face belongs to.) 
+A core feature of our privacy-preserving IoT framework is the avoidance of points of centralization. Although many cloud-based face detection services exist (e.g., Google's Firebase MLKit), we restrict our IoT doorbell to use on-device face detection. (We also remark that our devices do not perform face \textit{recognition}, which is a seperate task that attempts to identify the individual who the face belongs to.) 
 
 For the face detection task, we use the pre-trained CascadeClassifier \cite{viola2001rapid}. Cascade Classifiers based on Haar-like features were introduced in 2001 and are still widely used in face detection \cite{sharifara2014general}. Pre-trained Cascade Classifiers have a short execution time and small calculation load, making them a good choice for on-device calculations on IoT devices with low computational power.
 
@@ -113,7 +113,7 @@ For registration, the client sends JSON-formatted data in an HTTP POST request t
 \textit{Fig. \ref{fig:app_sc}} shows the main (registration) GUI of the app.
 
 
-\subsection{Media player} The app has the VLC player integrated for video streaming. This allows users to see what is occurring at their doorstep. Working with Orbot, the media player streams the video through the onion network, which prevents adversaries from eavesdropping on the transmitted video. The use of Snowflake (as described in Section \ref{sec:netarch} also disguises the video stream.
+\subsection{Media player} The app has the VLC player integrated for video streaming. This allows users to see what is occurring at their doorstep. Working with Orbot, the media player streams the video through the onion network, which prevents adversaries from eavesdropping on the transmitted video. The use of Snowflake (as described in Section \ref{sec:netarch}) also disguises the video stream.
 
 \subsection{Two-way communication}
 The media player streams both video and audio and thus enables the user to see and hear visitors. Meanwhile, the user has the option to play pre-recorded voice samples (which can be managed through the app as well, as described in Section \ref{sec:management}) to communicate with visitors. We envision supporting real-time two-way communication as a future feature.
@@ -140,12 +140,12 @@ The doorbell serves a webpage for the user to manipulate device settings, includ
 
 
 \section{Performance evaluation}
-In this section, we would like to evaluate the performance of our system by analyzing the following factors:
+In this section, we evaluate the performance of our system by analyzing the following factors:
 \begin{itemize}
-	\item Streaming latency;
-	\item Energy consumption;
-	\item Bandwidth;
-	\item Notification latency;
+	\item Streaming latency
+	\item Energy consumption
+	\item Bandwidth
+	\item Notification latency
 \end{itemize}
 
 A Google Pixel 3a XL is used as the client device.
@@ -154,10 +154,10 @@ A Google Pixel 3a XL is used as the client device.
 \label{subsec:streaming_latency}
 We measure our system's latency as the time difference between the user’s pressing on the Play button and the first frame’s appearing. \textit{Fig. \ref{fig:timeconsumption}} shows the time taken for 100 samples. We divide the time into four phases.
 \begin{itemize}
-	\item Circuit: The \textit{Circuit} phase is from when the app starts processing the user’s request to when it receives the server's information. In this phase, the app queries the proxy (Orbot) about the onion URL. Orbot will then try to establish a circuit connection between the user device and the server. In practice, the time taken in this phase varies, as sometimes there is an existing circuit. If Tor has to create a new circuit, this phase typically takes a few more seconds. On average, this phase takes 2.355 seconds with a standard derivation of 3.07 seconds.
-	\item Transmission: The \textit{Transmission} phase is from when the app sends request to the server to when the app hears back from the server. As we are using RTMP authentication, the server should return an HTTP response code 200 (indicating success) if the client provides correct credentials. The video transmission will begin immediately after the HTTP response. In average, this phase takes 0.599 seconds with a standard derivation of 0.089 seconds.
-	\item Preparation: The \textit{Preparation} phase is from when the app receives the HTTP response from the server to when it starts filling the buffer. In this phase, the media player initializes its components and gets ready for playing the video. In average, this phase takes 3.878 seconds with a standard derivation of 0.715 seconds.
-	\item Buffering: The \textit{Buffering} phase is when the app fills in its buffer. In this phase, the media player fill a few frames into the buffer (of a fixed size) for the decoder to decode. The decoder will decode the frames in milliseconds, and thus we can consider the video being played immediately after this phase. In average, this phase takes 0.046 seconds with a standard derivation of 0.006 seconds.
+	\item \textbf{Circuit}. The \textit{Circuit} phase is from when the app starts processing the user’s request to when it receives the server's information. In this phase, the app queries the proxy (Orbot) about the onion URL. Orbot will then try to establish a circuit connection between the user device and the server. In practice, the time taken in this phase varies, as sometimes there is an existing circuit. If Tor has to create a new circuit, this phase typically takes a few more seconds. On average, this phase takes 2.355 seconds with a standard derivation of 3.07 seconds.
+	\item \textbf{Transmission}. The \textit{Transmission} phase is from when the app sends request to the server to when the app hears back from the server. As we are using RTMP authentication, the server should return an HTTP response code 200 (indicating success) if the client provides correct credentials. The video transmission will begin immediately after the HTTP response. In average, this phase takes 0.599 seconds with a standard derivation of 0.089 seconds.
+	\item \textbf{Preparation}. The \textit{Preparation} phase is from when the app receives the HTTP response from the server to when it starts filling the buffer. In this phase, the media player initializes its components and gets ready for playing the video. In average, this phase takes 3.878 seconds with a standard derivation of 0.715 seconds.
+	\item \textbf{Buffering}. The \textit{Buffering} phase is when the app fills in its buffer. In this phase, the media player fill a few frames into the buffer (of a fixed size) for the decoder to decode. The decoder will decode the frames in milliseconds, and thus we can consider the video being played immediately after this phase. In average, this phase takes 0.046 seconds with a standard derivation of 0.006 seconds.
 \end{itemize}
 
 \begin{figure}
@@ -176,17 +176,17 @@ On average, the whole process takes 6.867 seconds with a standard derivation of 
 
 
 \subsection{Energy consumption}
-We evaluate the battery consumption of our app using the system measured data. The app consumes 6\% of the device's battery after actively running in background for 6 days, 11 hours and 50 minutes (83.83 hours). The device has a battery size of 3700 mAh, and therefore the app roughly consumes 2.65 mAh for every hour running. We consider it reasonable for an app which receives and pushes real-time notifications.
+We evaluate the battery consumption of our app using the system measured data. The app consumes 6\% of the device's battery after actively running in the background for 6 days, 11 hours and 50 minutes (83.83 hours). The device has a battery size of 3700 mAh, and therefore the app roughly consumes 2.65 mAh for every hour running. We consider it reasonable for an app which receives and pushes real-time notifications.
 
 \subsection{Bandwidth}
-The outgoing traffic from the doorbell devices is 71 kb/s by average, after the video is compressed and encoded. For comparison, the raw video has the a of 410 kb/s. When not streaming the video, the doorbell's bandwidth cost is negligible.
+The outgoing traffic from the doorbell devices is 71 kb/s on average, after the video is compressed and encoded. For comparison, the raw video has an average of 410 kb/s. When not streaming the video, the doorbell's bandwidth cost is negligible.
 
 \subsection{Video and audio quality}
 The system supports videos up to 1024x768 at 6 fps and audio with a sample rate of 44.1kHz.
 
 \subsection{Notification latency}
 \label{subsec:notification_latency}
-We measure the notification latency by measuring the time difference from when the message is sent to Firebase Messaging server from the doorbell to when the message is received on the client app. The average latency of 250 consecutive samples is 0.478 seconds. Fig. \ref{fig:notificationlatency_wTor} shows the CDF (cumulative distribution function) vs. latency.
+We measure the notification latency by measuring the time difference from when the message is sent to the Firebase Messaging server from the doorbell to when the message is received on the client app. The average latency of 250 consecutive samples is 0.478 seconds. Fig. \ref{fig:notificationlatency_wTor} shows the CDF (cumulative distribution function) vs. latency.
 
 \subsection{The cost of using Tor}
 Finally, we measure the cost of using Tor. By its nature, Tor adds latency to the system and we would like to know the exact impact. We measure the following time and compare the difference between:
@@ -208,7 +208,7 @@ We described the streaming latency of our system in Section \ref{subsec:streamin
 
 \Paragraph{Notification latency.}
 
-As we described in Section \ref{subsec:notification_latency}, the latency of push notification with Tor is 0.478 seconds on average. We further conduct experiment where Tor is not in the middle. \textit{Fig. \ref{fig:notificationlatency_wTor_vs_vanilla}} shows the difference of the service with Tor ("with-Tor") between that without Tor ("vanilla"). The dotted green line denotes for the latency of vanilla service, and the blue full line denotes for the latency of with-Tor service. The median of with-Tor service is roughly twice as the median of vanilla service.
+As we described in Section \ref{subsec:notification_latency}, the latency of push notification with Tor is 0.478 seconds on average. We further conduct an experiment where Tor is not in the middle. \textit{Fig. \ref{fig:notificationlatency_wTor_vs_vanilla}} shows the difference of the service with Tor ("with-Tor") and without Tor ("vanilla"). The dotted green line denotes the latency of vanilla service, and the blue full line denotes the latency of with-Tor service. The median of with-Tor service is roughly twice the median of vanilla service.
 
 \begin{figure}
 	\includegraphics[width=\linewidth]{plot_push_tor_vs_vanilla.pdf}
